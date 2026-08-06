@@ -1,0 +1,13 @@
+name = "Create Rain Fix"
+filename = "create-rain-fix-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0bb2a062df0b87e55b040c0945c30acd1a83dc9e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8414626
+project-id = 1606629

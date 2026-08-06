@@ -1,0 +1,88 @@
+name: Content Suggestion
+description: Suggest content to add, remove, or replace in the modpack.
+title: "[Content]: "
+labels: content
+assignees: lutfilahdzaky
+type: feature
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting, please make sure:
+        - Your suggestion has not already been made.
+        - The content is compatible with Minecraft 1.21.1 and NeoForge.
+
+  - type: dropdown
+    id: content-type
+    attributes:
+      label: Content Type
+      description: What type of content are you suggesting?
+      options:
+        - Mod
+        - Resource Pack
+        - Data Pack
+        - Shader Pack
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: content-name
+    attributes:
+      label: Content Name
+      description: What is the name of the content?
+      placeholder: e.g. Distant Horizons
+    validations:
+      required: true
+
+  - type: input
+    id: content-link
+    attributes:
+      label: Content Link
+      description: Provide the official page (Modrinth, CurseForge, GitHub, etc.).
+      placeholder: https://...
+
+  - type: dropdown
+    id: suggestion-type
+    attributes:
+      label: Suggestion Type
+      options:
+        - Add
+        - Remove
+        - Replace
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why should this content be added, removed, or replaced?
+    validations:
+      required: true
+
+  - type: textarea
+    id: required-content
+    attributes:
+      label: Required content
+      description: If this content requires other content to function, please list it here.
+
+  - type: textarea
+    id: known-incompatibilities
+    attributes:
+      label: Known incompatibilities
+      description: If this content is known to be incompatible with other content, please list it here.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched for existing suggestions before creating this request.
+          required: true

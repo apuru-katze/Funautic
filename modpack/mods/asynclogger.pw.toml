@@ -1,0 +1,13 @@
+name = "Async Logger"
+filename = "asynclogger-1.1.4+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b89a6aea55b79791f2d190f775cd3fda945a5f84"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8236475
+project-id = 1491426

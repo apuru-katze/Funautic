@@ -1,0 +1,13 @@
+name = "Simple Netherite Horse Armor"
+filename = "netherite_horse_armor-neoforge-1.21.1-2.0a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0bd2749b22887192fb096ff5e83f96f0180893a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7022285
+project-id = 677675

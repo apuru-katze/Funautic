@@ -1,0 +1,13 @@
+name = "Funautic"
+author = "Kucing"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "4a8382510f3d1a4473f6f7f12ddb34f20a691734698e2b3982843a7a6a995742"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"

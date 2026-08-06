@@ -1,0 +1,13 @@
+name = "Potion Stacks"
+filename = "potionstacks-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d6796879150f7e957dec085d9b4991feca104a87"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6629721
+project-id = 1282762

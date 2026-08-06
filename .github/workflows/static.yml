@@ -1,0 +1,80 @@
+name: Deploy packwiz pack to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+    paths: ["modpack/**"]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      # Error handler
+      - name: Checkout main branch
+        uses: actions/checkout@v7
+        continue-on-error: true
+        with:
+          ref: main
+          path: main
+
+      - name: Checkout dev branch
+        uses: actions/checkout@v7
+        continue-on-error: true
+        with:
+          ref: dev
+          path: dev
+
+      # workflow steps
+      - name: Prepare output folder
+        run: |
+          mkdir -p out
+          echo "<h1>Modpack Repository</h1><p>Status: 200 OK</p>" > out/index.html
+
+          build_pack() {
+            local branch=$1
+            local version=$2
+            
+            if [ -d "$branch/$version" ]; then
+              echo "Memproses branch $branch versi $version..."
+              
+              mkdir -p out/$branch/$version
+              cp -r $branch/$version/* out/$branch/$version/
+              
+              if [ -d "out/$branch/$version/mmcpack" ]; then
+                (cd $branch/$version/mmcpack && zip -q -r ../../../out/$branch/$version/modpack.zip .)
+                echo "-> modpack.zip berhasil dibuat dan folder mmcpack tetap dipertahankan."
+              else
+                echo "-> Peringatan: Folder mmcpack tidak ditemukan di $branch/$version. Zip diabaikan."
+              fi
+            else
+              echo "Info: Folder $version tidak ada di branch $branch. Dilewati."
+            fi
+          }
+
+          build_pack main modpack
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "out"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

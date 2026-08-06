@@ -1,0 +1,13 @@
+name = "Hot-Reload Resource Packs Forked"
+filename = "hot_reload_resource_packs-neoforge-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cef3efb7efc924841253889f6d6930142829cc45"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8032282
+project-id = 1491885

@@ -1,0 +1,13 @@
+name = "Better Centered Vanilla Crosshair"
+filename = "Better Centered Vanilla Crosshair.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "513c8e89c550d94237488bc483b5228efc3adebf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8546526
+project-id = 1633085

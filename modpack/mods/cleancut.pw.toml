@@ -1,0 +1,13 @@
+name = "CleanCut"
+filename = "cleancut-neoforge-1.21.1-8.0.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6c9e49ee989607beb0cffd9c498d182741e78215"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8579096
+project-id = 392805

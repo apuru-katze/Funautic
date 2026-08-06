@@ -1,0 +1,13 @@
+name = "furniture mods - create/sable(aeronautics) compatibility"
+filename = "createfurnitureseats-4.8.17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b822432c9a587b2c83143a83697efde8a7b90d4e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8256532
+project-id = 1528288
