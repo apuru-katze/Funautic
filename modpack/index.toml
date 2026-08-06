@@ -1474,7 +1474,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeroworks.pw.toml"
-hash = "d6a416c2c87e593a23bbc79856079a4e6bd3875c2f020a557c3b2011438dd178"
+hash = "ff5cc2cb323fcfc334b4975b2d23ddffa01a6c42fb9b73128f7409bc617d9f4b"
 metafile = true
 
 [[files]]
@@ -1763,11 +1763,6 @@ hash = "0f871a463cc9f10ba812d7e7cbdbfb119535d1a683c8eb85d06af35d7c726953"
 metafile = true
 
 [[files]]
-file = "mods/fastsuite.pw.toml"
-hash = "83e60a73e109258def123fbcab5cf606857f36feca621a4c40c9d7c10b285bca"
-metafile = true
-
-[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
 metafile = true
@@ -1885,6 +1880,11 @@ metafile = true
 [[files]]
 file = "mods/jasione.pw.toml"
 hash = "722be598db4dc640d635952e4ffd2db198cde7c8c3483ebf296e3e9fe82ea62c"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "de2cc54658d1fd0ec69b548ed58307c23d191acfd551f36c0a6721e96eca17ab"
 metafile = true
 
 [[files]]
@@ -2014,7 +2014,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "1707b4f1e3df638815211af1336c4d565d7eeae0b629527f1f9cd14eae9c0335"
+hash = "23ae6070690635c357040e1361922474ca25a1b0cc621bd9204070ec6c74acaf"
 metafile = true
 
 [[files]]
@@ -2269,17 +2269,12 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "416a2346e514f4481c138ae83eb9b12df6da53184f924b32239e8e0bc603f188"
+hash = "e4ced1c70be45fd8e734418769c36f8af66b62d46c5171e931b7195cd84de434"
 metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
-metafile = true
-
-[[files]]
-file = "mods/tmrv.pw.toml"
-hash = "6a74877f3cd1aa910324383206b42a9775c3564e3174df009950cff3c8b1e740"
 metafile = true
 
 [[files]]
