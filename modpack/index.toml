@@ -1659,17 +1659,17 @@ metafile = true
 
 [[files]]
 file = "mods/easy-npc-config-ui.pw.toml"
-hash = "508d3044064ac40b778b6e5d8c7fd8effae02a9c4c853eeb1cfbfb28b0e098c1"
+hash = "caded4db5ed56c4aff63c0cbf880aaa3ac7a8df49da12d811602c1f6b5660c33"
 metafile = true
 
 [[files]]
 file = "mods/easy-npc-core.pw.toml"
-hash = "8262b72cb0c151e3dc1ccd3a2d158354ba832aabead1564f7211fdad83ce412a"
+hash = "3c6d5f81bb6f5218678737cc8fc72d4aa5cf130fc2ad030d14b12540bfc52d37"
 metafile = true
 
 [[files]]
 file = "mods/easy-npc.pw.toml"
-hash = "c8647a03a4f05514c2d6bde3b667a8890c468a98be802c6954d3e83f5aa98786"
+hash = "89d8fb3ba22a9b16042aa197af6cc50b958fc8a47df22dc5679d37c96da37985"
 metafile = true
 
 [[files]]
