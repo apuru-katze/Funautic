@@ -1273,18 +1273,6 @@ file = "defaultconfigs/biolith/general.json"
 hash = "7f1e58be2cf7db18181869804bb09823ee93a4ea863d560036e8a05954bcf806"
 
 [[files]]
-file = "mods/AsyncParticles-21.1.3.2+1.21.1.jar"
-hash = "47bda1d469968cc5306bd4e43febff20364c535640552f7827423b13f3561a56"
-
-[[files]]
-file = "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
-hash = "0c49b5ef447a7f09100e9a210888a7347fbda0aa75322063991f6063b25fe3f9"
-
-[[files]]
-file = "mods/aeroworks-1.3.0.jar"
-hash = "f836748d2bbad5b60fffef559418b74688621bf8e77710e6e0d5437c56ed2c78"
-
-[[files]]
 file = "mods/aileron.pw.toml"
 hash = "ab7f09184e83abf8da1ae27fcfad48f896963e23ae244b00eb6577fcce298bed"
 metafile = true
@@ -1335,10 +1323,6 @@ hash = "95b3943d881a38056cdfd59f208584f96f9de8cab9dc1412daa5edaa3db35071"
 metafile = true
 
 [[files]]
-file = "mods/auth-logic-0.0.4+1.21.1-neoforge.jar"
-hash = "9437dd86d3efe8b5526dc2d71af39c8b74eff02c59742b16deef16933ae96497"
-
-[[files]]
 file = "mods/authlogic.pw.toml"
 hash = "ca82e496e7c22b60b0fed133646344abe0b043457395359dabb1dcadf0fda964"
 metafile = true
@@ -1352,10 +1336,6 @@ metafile = true
 file = "mods/badoptimizations.pw.toml"
 hash = "e2f2a6f6ff38054ce8d91a43a20b79ea7b4e84cb924142fb7d2bcfdd95fe5b57"
 metafile = true
-
-[[files]]
-file = "mods/balm-neoforge-1.21.1-21.0.58.jar"
-hash = "aa2463747bad4c2351869226ea7bce7839510dfd2ac387f8d1588b1ce9309c67"
 
 [[files]]
 file = "mods/balm.pw.toml"
@@ -1436,10 +1416,6 @@ metafile = true
 file = "mods/configured-defaults.pw.toml"
 hash = "48e86845338e9e6127ff6bb6e3c34563717d7a883719b82824720ff1c5948464"
 metafile = true
-
-[[files]]
-file = "mods/connector-2.0.0-beta.14+1.21.1-full.jar"
-hash = "a79817f1076e2e6499b0ab09c4e8c032d04b071341b66d036c3d96112804e51b"
 
 [[files]]
 file = "mods/connector-extras.pw.toml"
@@ -1550,10 +1526,6 @@ metafile = true
 file = "mods/create-dragons-plus.pw.toml"
 hash = "b8871b2a91d1eb68d187060e8f6e34d9cd2b407677587e9481b4b9eb042afab0"
 metafile = true
-
-[[files]]
-file = "mods/create-extended-wrenches-1.21.1-2.0.2.jar"
-hash = "39fd2aeb7bf334d8a68c2f64643cd3e9f577d7b492ab748da47ecedf4172f31e"
 
 [[files]]
 file = "mods/create-factory.pw.toml"
@@ -1676,10 +1648,6 @@ hash = "2ed5ac453fa3f1f3c62de34254f933d81ee0118746a06e5f0effeb9af2585007"
 metafile = true
 
 [[files]]
-file = "mods/drivebywire-0.3.0.jar"
-hash = "39a3dfd7b3b26dedb347ac51356a3e3819fd05dfcdd2a7f2c1f18c09a5298ef6"
-
-[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "e2a3aca8101a179153b92e99000a10d06e4b5d285d358fbe457a53690d12dab5"
 metafile = true
@@ -1703,10 +1671,6 @@ metafile = true
 file = "mods/easy-npc.pw.toml"
 hash = "009626fde1bfb1baa32842ceca36cde3ca01957a7f878b646d475830966f4391"
 metafile = true
-
-[[files]]
-file = "mods/easy_npc_bundle-neoforge-1.21.1-7.1.1.jar"
-hash = "c46f94df0e9e619e786444f3364961db3080dafc1f15e9339112c90c340f0e97"
 
 [[files]]
 file = "mods/eating-animation-forge.pw.toml"
@@ -1817,10 +1781,6 @@ metafile = true
 file = "mods/flerovium.pw.toml"
 hash = "ab318c94ea021413ca29bdbc166219eba879214d752e77e616687b349e05e3fd"
 metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar"
-hash = "68abf2864e957df26ac0cc3bd5352ee67880e052b47a80f22f28556c1179f18d"
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
@@ -1963,17 +1923,9 @@ hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
-file = "mods/kotlinforforge-5.11.0-all.jar"
-hash = "ac827b62ce8fe71760208671b4a694e3ccd35049075f9406a751cffb5a5c9779"
-
-[[files]]
 file = "mods/kotlinlangforge.pw.toml"
 hash = "6c77080eca61618b16c9ca4f1c1b20b1b015ccf283f28b2d8ba0f3355cca6976"
 metafile = true
-
-[[files]]
-file = "mods/kubejs-neoforge-2101.7.2-build.368.jar"
-hash = "01767bb677a9c4a8f318717c4c21bca7e7ef80995603403a551068a0e064e740"
 
 [[files]]
 file = "mods/kubejs.pw.toml"
@@ -2044,10 +1996,6 @@ metafile = true
 file = "mods/map-atlases-forge.pw.toml"
 hash = "88669a9f7da5bc6cbdef599dcbcc680df8b93120c383f6d1f65bbd30f05d5d01"
 metafile = true
-
-[[files]]
-file = "mods/map_atlases-neoforge-1.21-6.6.0.jar"
-hash = "b120303bb44d05ddc7d130e2b3bcadf29deb513ee80d81232533c5ce5b6f9758"
 
 [[files]]
 file = "mods/mod-menu-neoforge-edition.pw.toml"
@@ -2190,10 +2138,6 @@ hash = "eb182616552dab79fd14b55c12a2a0f8e1153ec6c9d90989acffe1c420621ca0"
 metafile = true
 
 [[files]]
-file = "mods/ragdoll_corpse-1.21.1-0.3.0.jar"
-hash = "ffb17d35c82053c3c95bd3f488502350bb0877bf1837f16c5e6f86134daef2d3"
-
-[[files]]
 file = "mods/reconnectible-chains.pw.toml"
 hash = "910a782c2128ff8b2c134a8741ad04ecd469385174c56aea04e9c328e6d18212"
 metafile = true
@@ -2212,10 +2156,6 @@ metafile = true
 file = "mods/resourceful-config.pw.toml"
 hash = "89d21f5da7fea8b1197c6e8e5215d45f7400844560e0f7c179d3c6145bd36a95"
 metafile = true
-
-[[files]]
-file = "mods/rhino-2101.2.7-build.85.jar"
-hash = "e0e9b0e78edd380440266c0f4ea8d489dac851ef075a4566a66a6dae2f7bbb66"
 
 [[files]]
 file = "mods/rhino.pw.toml"
@@ -2246,10 +2186,6 @@ metafile = true
 file = "mods/sable.pw.toml"
 hash = "674aaf0dc67f808f0054cfc7bbe041d6725fcbbe97644a85ffbd946a22d35666"
 metafile = true
-
-[[files]]
-file = "mods/sable_player_ragdoll-1.21.1-0.7.5.jar"
-hash = "69611deff1c2b18ae0ae7dbaea24cc14f4b69f0368297653933ae9b33adf2d2b"
 
 [[files]]
 file = "mods/saturn.pw.toml"
@@ -2317,14 +2253,6 @@ hash = "f1ac2f9ecce242d0f193db475dba673da2bd5ee04b59d3e750699e7b7c4d1f39"
 metafile = true
 
 [[files]]
-file = "mods/sophisticatedbackpacks-1.21.1-3.25.63.1912.jar"
-hash = "a2058bdefc75f6143cb8257463a734a2d5a733d9920f3111ed891277b3655374"
-
-[[files]]
-file = "mods/sophisticatedcore-1.21.1-1.4.58.2026.jar"
-hash = "70a5db0b1aa1d4095ca5847d1480603e01861ba7d54afa7bb144559a0efea523"
-
-[[files]]
 file = "mods/starcatcher.pw.toml"
 hash = "14bd8d81dd8e2e313586273fd5b160ec0c3e33152b9a62af72c89c73284b4848"
 metafile = true
@@ -2338,10 +2266,6 @@ metafile = true
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "db845eb158247bde04edc727945fbf67c6a46f0cbe4d2a1e9142263c022c73f8"
 metafile = true
-
-[[files]]
-file = "mods/supplementaries-neoforge-1.21.1-3.6.8.jar"
-hash = "0dd0445af35aa15ad012833c4b8024d2ed70320d1ace0316d2f5b684b06a997d"
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
@@ -2359,17 +2283,9 @@ hash = "6a74877f3cd1aa910324383206b42a9775c3564e3174df009950cff3c8b1e740"
 metafile = true
 
 [[files]]
-file = "mods/trade-cycling-neoforge-1.21.1-1.0.18.jar"
-hash = "dc1dc7ddcff62689e6d02212dbae33e54ecd906242bd8c2700be25e63aa93bba"
-
-[[files]]
 file = "mods/trade-cycling.pw.toml"
 hash = "1ce973c231d9d6a7e788f5a2eb0797a0f5b8beef318d70f97931309ff7ef9abe"
 metafile = true
-
-[[files]]
-file = "mods/trashslot-neoforge-1.21.1-21.1.11.jar"
-hash = "61fdb5de0fc3d36db0e5dd82c2e03341e449bbc47ce13eeab834b05596b7bb5b"
 
 [[files]]
 file = "mods/trashslot.pw.toml"
@@ -2436,10 +2352,6 @@ hash = "8f48acf63d0510f84e091a1bada3610692532adf698ee9fdf32d9bd1c0a84269"
 metafile = true
 
 [[files]]
-file = "resourcepacks/centered_crosshair_fix.zip"
-hash = "fa6de568cfdf2ba67a4aecdad6e9464211b312a685421af78b0832c2c95c70d2"
-
-[[files]]
 file = "resourcepacks/fresh-moves.pw.toml"
 hash = "63a7202bcce81d1f3f17a90f00efd6f2d1f59796279eec69d7bc4570ce3b79c9"
 metafile = true
@@ -2453,7 +2365,3 @@ metafile = true
 file = "resourcepacks/slightly-improved-font.pw.toml"
 hash = "1500696334c198418def3441b2a5764156c1b68d7de1882d345f61d842dc3d25"
 metafile = true
-
-[[files]]
-file = "servers.dat"
-hash = "555311a91aa595ddd658c2c55130cb1bb22ed84168ff92fea2ec22f73f023e00"
