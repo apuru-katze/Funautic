@@ -2360,3 +2360,8 @@ metafile = true
 file = "resourcepacks/slightly-improved-font.pw.toml"
 hash = "1500696334c198418def3441b2a5764156c1b68d7de1882d345f61d842dc3d25"
 metafile = true
+
+[[files]]
+file = "resourcepacks/translations-for-sodium.pw.toml"
+hash = "b8fba342bd481534c2e54832db578aee16a2e91cdf811bdd2f928c6bcef2b80d"
+metafile = true
