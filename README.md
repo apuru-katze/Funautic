@@ -7,3 +7,11 @@ To import modpack, use link bellow and paste at import section. You can download
 | Packs    | Link                                                              |
 | :------- | :---------------------------------------------------------------- |
 | `1.21.1` | `https://apuru-katze.github.io/Funautic/main/modpack/modpack.zip` |
+
+## Friend Modpack
+
+Check this too
+
+| Packs                  | Link                                          |
+| :--------------------- | :-------------------------------------------- |
+| `SekaiModded Survival` | `https://github.com/lutfilahdz/sekai-modpack` |

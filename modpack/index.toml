@@ -958,7 +958,7 @@ hash = "8606be5c43ae38dc88d0e6293d4d641af4c59e8d35e9d24ce179e44b7e989673"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "e86276f3140814245157a6c56f4ca571645194973f4e4c54b1f34143e4f21d47"
+hash = "9b8bddb9eac5f0a1d6c185368e27165a3d7b7a20653be08bdddd49aef8a79731"
 
 [[files]]
 file = "config/quick-pack.json"
