@@ -34,15 +34,15 @@ choices = ["dh_off", "dh_on"]
 [flavor_groups.camtweak]
 name = "Camera Tweaks"
 side = "client"
-choices = ["camera_tweak_off", "camera_tweak_on"]
+choices = ["camtweak_off", "camtweak_on"]
 [flavor_groups.cltweak]
 name = "Client Tweaks"
 side = "client"
-choices = ["tweak_client_off", "tweak_client_on"]
+choices = ["cltweak_off", "cltweak_on"]
 [flavor_groups.soundtweak]
 name = "Immersive Sounds"
 side = "client"
-choices = ["sound_off", "sound_on"]
+choices = ["soundtweak_off", "soundtweak_on"]
 [flavor_groups.atmospherics]
 name = "Atmospherics"
 side = "client"
@@ -54,11 +54,11 @@ choices = ["tooltips_off", "tooltips_on"]
 [flavor_groups.motitweak]
 name = "Tweak Motion"
 side = "client"
-choices = ["tweak_motion_off", "tweak_motion_on"]
+choices = ["motitweak_off", "motitweak_on"]
 [flavor_groups.emftweak]
 name = "EMF Compability"
 side = "client"
-choices = ["emf_comp_off", "emf_comp_on"]
+choices = ["emftweak_off", "emftweak_on"]
 [flavor_groups.punchy]
 name = "Punchy"
 side = "client"
@@ -122,45 +122,45 @@ flavours = "funautic_fancy"
 flavours = "atmospherics_on"
 
 [metafile.aeronautics-wind-sound]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 [metafile.ambientsounds]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 [metafile.create-rolling-tones]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 [metafile.dripsounds]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 [metafile.more-sounds]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 [metafile.music-notification]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 [metafile.pf-neoforge]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 [metafile.presence-footsteps-x-sable]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 [metafile.sound-physics-aeronautics]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 [metafile.sound-physics-remastered]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 [metafile.sound]
-flavours = "sound_on"
+flavours = "soundtweak_on"
 
 [metafile.aero_cam_sync]
-flavours = "camera_tweak_on"
+flavours = "camtweak_on"
 [metafile.cameraoverhaul]
-flavours = "camera_tweak_on"
+flavours = "camtweak_on"
 
 [metafile.boat-item-view]
-flavours = "tweak_client_on"
+flavours = "cltweak_on"
 [metafile.cleancut]
-flavours = "tweak_client_on"
+flavours = "cltweak_on"
 [metafile.client-tweaks]
-flavours = "tweak_client_on"
+flavours = "cltweak_on"
 [metafile.inventory-hud-forge]
-flavours = "tweak_client_on"
+flavours = "cltweak_on"
 [metafile.inventory-profiles-next]
-flavours = "tweak_client_on"
+flavours = "cltweak_on"
 [metafile.jump-over-fences]
-flavours = "tweak_client_on"
+flavours = "cltweak_on"
 
 [metafile.clean-tooltips]
 flavours = "tooltips_on"
@@ -179,16 +179,16 @@ flavours = "shader"
 flavours = "shader"
 
 [metafile.createsoftmotion]
-flavours = "tweak_motion_on"
+flavours = "motitweak_on"
 [metafile.a-good-place]
-flavours = "tweak_motion_on"
+flavours = "motitweak_on"
 
 [metafile.emf-compat-core]
-flavours = "emf_comp_on"
+flavours = "emftweak_on"
 [metafile.emf-compat-create]
-flavours = "emf_comp_on"
+flavours = "emftweak_on"
 [metafile.emf-compat-quark]
-flavours = "emf_comp_on"
+flavours = "emftweak_on"
 
 [metafile.in-game-account-switcher]
 flavours = "admintools_on"
