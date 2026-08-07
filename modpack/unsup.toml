@@ -26,436 +26,183 @@ id = "shader"
 name = "Iris Shader"
 description = "Shader dan optimasinya"
 
-# Distant Horizon
-[flavor_groups.hard_mode]
+# Button Choice
+[flavor_groups.dh]
 name = "Distant Horizon"
 side = "client"
 choices = ["dh_off", "dh_on"]
+[flavor_groups.camtweak]
+name = "Camera Tweaks"
+side = "client"
+choices = ["camera_tweak_off", "camera_tweak_on"]
+[flavor_groups.cltweak]
+name = "Client Tweaks"
+side = "client"
+choices = ["tweak_client_off", "tweak_client_on"]
+[flavor_groups.soundtweak]
+name = "Immersive Sounds"
+side = "client"
+choices = ["sound_off", "sound_on"]
+[flavor_groups.atmospherics]
+name = "Atmospherics"
+side = "client"
+choices = ["atmospherics_off", "atmospherics_on"]
+[flavor_groups.tooltips]
+name = "Tooltips"
+side = "client"
+choices = ["tooltips_off", "tooltips_on"]
+[flavor_groups.motitweak]
+name = "Tweak Motion"
+side = "client"
+choices = ["tweak_motion_off", "tweak_motion_on"]
+[flavor_groups.emftweak]
+name = "EMF Compability"
+side = "client"
+choices = ["emf_comp_off", "emf_comp_on"]
+[flavor_groups.punchy]
+name = "Punchy"
+side = "client"
+choices = ["punchy_off", "punchy_on"]
+[flavor_groups.admintools]
+name = "Admin Tools"
+side = "client"
+choices = ["admintools_off", "admintools_on"]
 
 # Modlist
-[metafile.aileron]
-flavors = "kucay_fancy"
-[metafile.alltheleaks]
-flavors = "kucay_fancy"
-[metafile.amendments]
-flavors = "kucay_fancy"
-[metafile.another-furniture]
-flavors = "kucay_fancy"
-[metafile.appleskin]
-flavors = "kucay_fancy"
-[metafile.architectury-api]
-flavors = "kucay_fancy"
-[metafile.armor-statues]
-flavors = "kucay_fancy"
-[metafile.asynclogger]
-flavors = "kucay_fancy"
-[metafile.asyncparticles]
-flavors = "kucay_fancy"
-[metafile.atmospherics]
-flavors = "kucay_fancy"
-[metafile.authlogic]
-flavors = "kucay_fancy"
-[metafile.axes-are-weapons]
-flavors = "kucay_fancy"
-[metafile.badoptimizations]
-flavors = "kucay_fancy"
-[metafile.balm]
-flavors = "kucay_fancy"
-[metafile.bellsandwhistles]
-flavors = "kucay_fancy"
-[metafile.bens-sharks]
-flavors = "kucay_fancy"
-[metafile.biomespy]
-flavors = "kucay_fancy"
-[metafile.bookshelf]
-flavors = "kucay_fancy"
-[metafile.brewin-and-chewin]
-flavors = "kucay_fancy"
-[metafile.brick-and-mortar]
-flavors = "kucay_fancy"
-[metafile.camerapture]
-flavors = "kucay_fancy"
-[metafile.cerulean]
-flavors = "kucay_fancy"
-[metafile.chat-heads]
-flavors = "kucay_fancy"
+[metafile.3dskinlayers]
+flavours = "funautic_fancy"
+[metafile.better-clouds]
+flavours = "funautic_fancy"
+[metafile.blur-plus]
+flavours = "funautic_fancy"
+[metafile.chatanimation]
+flavours = "funautic_fancy"
 [metafile.cherished-worlds]
-flavors = "kucay_fancy"
-[metafile.chisel-reborn]
-flavors = "kucay_fancy"
-[metafile.cleancut]
-flavors = "kucay_fancy"
-[metafile.cloth-config]
-flavors = "kucay_fancy"
-[metafile.companion]
-flavors = "kucay_fancy"
-[metafile.configured-defaults]
-flavors = "kucay_fancy"
-[metafile.connector-extras]
-flavors = "kucay_fancy"
-[metafile.connector]
-flavors = "kucay_fancy"
-[metafile.continuity]
-flavors = "kucay_fancy"
-[metafile.controlling]
-flavors = "kucay_fancy"
-[metafile.copycats]
-flavors = "kucay_fancy"
-[metafile.coroutil]
-flavors = "kucay_fancy"
-[metafile.crawl]
-flavors = "kucay_fancy"
-[metafile.create-aeronautics-ballast]
-flavors = "kucay_fancy"
-[metafile.create-aeronautics-encased-fluid-pipes]
-flavors = "kucay_fancy"
-[metafile.create-aeronautics-transmission-linkage]
-flavors = "kucay_fancy"
-[metafile.create-aeronautics]
-flavors = "kucay_fancy"
-[metafile.create-aeroworks]
-flavors = "kucay_fancy"
-[metafile.create-alloyed]
-flavors = "kucay_fancy"
-[metafile.create-bits-n-bobs]
-flavors = "kucay_fancy"
-[metafile.create-ca]
-flavors = "kucay_fancy"
-[metafile.create-cardboarded-conveynience]
-flavors = "kucay_fancy"
-[metafile.create-cobblestone]
-flavors = "kucay_fancy"
-[metafile.create-connected]
-flavors = "kucay_fancy"
-[metafile.create-deco]
-flavors = "kucay_fancy"
-[metafile.create-deep-seas]
-flavors = "kucay_fancy"
-[metafile.create-diesel-generators]
-flavors = "kucay_fancy"
-[metafile.create-dragons-plus]
-flavors = "kucay_fancy"
-[metafile.create-factory]
-flavors = "kucay_fancy"
-[metafile.create-framed]
-flavors = "kucay_fancy"
-[metafile.create-nowheel]
-flavors = "kucay_fancy"
-[metafile.create-pattern-schematics]
-flavors = "kucay_fancy"
-[metafile.create-power-loader]
-flavors = "kucay_fancy"
-[metafile.create-prismatic-shine]
-flavors = "kucay_fancy"
-[metafile.create-rain-fix]
-flavors = "kucay_fancy"
-[metafile.create-shuffle-filter]
-flavors = "kucay_fancy"
-[metafile.create-stuff-additions]
-flavors = "kucay_fancy"
-[metafile.create-tracks]
-flavors = "kucay_fancy"
-[metafile.create]
-flavors = "kucay_fancy"
-[metafile.createaddition]
-flavors = "kucay_fancy"
-[metafile.cryonicconfig]
-flavors = "kucay_fancy"
-[metafile.cubes-without-borders]
-flavors = "kucay_fancy"
-[metafile.cultural-delights]
-flavors = "kucay_fancy"
-[metafile.cupboard]
-flavors = "kucay_fancy"
-[metafile.curios]
-flavors = "kucay_fancy"
-[metafile.delightful-creators-forge]
-flavors = "kucay_fancy"
-[metafile.dimension-access-manager]
-flavors = "kucay_fancy"
-[metafile.ding]
-flavors = "kucay_fancy"
-[metafile.discord-chat-connect]
-flavors = "kucay_fancy"
-[metafile.distracting-trims]
-flavors = "kucay_fancy"
-[metafile.drive-by-wire-sable]
-flavors = "kucay_fancy"
-[metafile.drive-by-wire-typewriter]
-flavors = "kucay_fancy"
-[metafile.dynamic-fps]
-flavors = "kucay_fancy"
-[metafile.easy-anvils]
-flavors = "kucay_fancy"
-[metafile.easy-npc-config-ui]
-flavors = "kucay_fancy"
-[metafile.easy-npc-core]
-flavors = "kucay_fancy"
-[metafile.easy-npc]
-flavors = "kucay_fancy"
-[metafile.eating-animation-forge]
-flavors = "kucay_fancy"
-[metafile.ecologics]
-flavors = "kucay_fancy"
-[metafile.emf-compat-core]
-flavors = "kucay_fancy"
-[metafile.emf-compat-create]
-flavors = "kucay_fancy"
-[metafile.emf-compat-quark]
-flavors = "kucay_fancy"
-[metafile.emi]
-flavors = "kucay_fancy"
-[metafile.emiaccelerator]
-flavors = "kucay_fancy"
+flavours = "funautic_fancy"
+[metafile.chatanimation]
+flavours = "funautic_fancy"
+[metafile.cherished-worlds]
+flavours = "funautic_fancy"
+[metafile.detail-armor-bar-reconstructed]
+flavours = "funautic_fancy"
+[metafile.effectual]
+flavours = "funautic_fancy"
 [metafile.enchanted-fishing-line]
-flavors = "kucay_fancy"
+flavours = "funautic_fancy"
 [metafile.entity-model-features]
-flavors = "kucay_fancy"
+flavours = "funautic_fancy"
 [metafile.entity-texture-features-fabric]
-flavors = "kucay_fancy"
-[metafile.entityculling]
-flavors = "kucay_fancy"
+flavours = "funautic_fancy"
 [metafile.explosive-enhancement-reforged]
-flavors = "kucay_fancy"
-[metafile.exposure-polaroid]
-flavors = "kucay_fancy"
-[metafile.exposure]
-flavors = "kucay_fancy"
-[metafile.extended-wrenches]
-flavors = "kucay_fancy"
-[metafile.fantasy-armor]
-flavors = "kucay_fancy"
-[metafile.farmers-delight]
-flavors = "kucay_fancy"
-[metafile.fast-paintings]
-flavors = "kucay_fancy"
-[metafile.ferritecore]
-flavors = "kucay_fancy"
-[metafile.fix-gpu-memory-leak]
-flavors = "kucay_fancy"
-[metafile.flerovium]
-flavors = "kucay_fancy"
-[metafile.forgified-fabric-api]
-flavors = "kucay_fancy"
-[metafile.framedblocks]
-flavors = "kucay_fancy"
-[metafile.framework]
-flavors = "kucay_fancy"
-[metafile.furniture-mods-create-sable-aeronautics]
-flavors = "kucay_fancy"
-[metafile.fzzy-config]
-flavors = "kucay_fancy"
-[metafile.geckolib]
-flavors = "kucay_fancy"
-[metafile.gml]
-flavors = "kucay_fancy"
-[metafile.gnetum]
-flavors = "kucay_fancy"
-[metafile.hot-reload-resource-packs-forked]
-flavors = "kucay_fancy"
-[metafile.ichunutil]
-flavors = "kucay_fancy"
-[metafile.immediatelyfast]
-flavors = "kucay_fancy"
-[metafile.immersive-paintings]
-flavors = "kucay_fancy"
-[metafile.in-game-account-switcher]
-flavors = "kucay_fancy"
-[metafile.interiors]
-flavors = "kucay_fancy"
+flavours = "funautic_fancy"
+[metafile.immersive-ui]
+flavours = "funautic_fancy"
+[metafile.itemphysic-lite]
+flavours = "funautic_fancy"
+[metafile.make_bubbles_pop]
+flavours = "funautic_fancy"
+[metafile.particle-effects]
+flavours = "funautic_fancy"
+[metafile.particle-rain]
+flavours = "funautic_fancy"
+[metafile.particular-reforged]
+flavours = "funautic_fancy"
+[metafile.perception]
+flavours = "funautic_fancy"
+[metafile.polytone]
+flavours = "funautic_fancy"
+[metafile.smooth-gui]
+flavours = "funautic_fancy"
+[metafile.subtle-effects]
+flavours = "funautic_fancy"
+[metafile.tiny-item-animations]
+flavours = "funautic_fancy"
+[metafile.visuality-forge]
+flavours = "funautic_fancy"
+[metafile.wakes-reforged]
+flavours = "funautic_fancy"
+
+[metafile.atmospherics]
+flavours = "atmospherics_on"
+
+[metafile.aeronautics-wind-sound]
+flavours = "sound_on"
+[metafile.ambientsounds]
+flavours = "sound_on"
+[metafile.create-rolling-tones]
+flavours = "sound_on"
+[metafile.dripsounds]
+flavours = "sound_on"
+[metafile.more-sounds]
+flavours = "sound_on"
+[metafile.music-notification]
+flavours = "sound_on"
+[metafile.pf-neoforge]
+flavours = "sound_on"
+[metafile.presence-footsteps-x-sable]
+flavours = "sound_on"
+[metafile.sound-physics-aeronautics]
+flavours = "sound_on"
+[metafile.sound-physics-remastered]
+flavours = "sound_on"
+[metafile.sound]
+flavours = "sound_on"
+
+[metafile.aero_cam_sync]
+flavours = "camera_tweak_on"
+[metafile.cameraoverhaul]
+flavours = "camera_tweak_on"
+
+[metafile.boat-item-view]
+flavours = "tweak_client_on"
+[metafile.cleancut]
+flavours = "tweak_client_on"
+[metafile.client-tweaks]
+flavours = "tweak_client_on"
 [metafile.inventory-hud-forge]
-flavors = "kucay_fancy"
+flavours = "tweak_client_on"
+[metafile.inventory-profiles-next]
+flavours = "tweak_client_on"
+[metafile.jump-over-fences]
+flavours = "tweak_client_on"
+
+[metafile.clean-tooltips]
+flavours = "tooltips_on"
+[metafile.create-package-tooltip]
+flavours = "tooltips_on"
+[metafile.obscure-tooltips]
+flavours = "tooltips_on"
+
+[metafile.colorwheel-patcher]
+flavours = "shader"
+[metafile.colorwheel]
+flavours = "shader"
+[metafile.createbetterfps]
+flavours = "shader"
 [metafile.irisshaders]
-flavors = "kucay_fancy"
-[metafile.item-obliterator]
-flavors = "kucay_fancy"
-[metafile.ixeris]
-flavors = "kucay_fancy"
-[metafile.jade-addons]
-flavors = "kucay_fancy"
-[metafile.jade]
-flavors = "kucay_fancy"
-[metafile.jasione]
-flavors = "kucay_fancy"
-[metafile.jei]
-flavors = "kucay_fancy"
-[metafile.kaleidoscope-chinese-food]
-flavors = "kucay_fancy"
-[metafile.kaleidoscope-cookery-automation]
-flavors = "kucay_fancy"
-[metafile.kaleidoscope-cookery]
-flavors = "kucay_fancy"
-[metafile.kerria]
-flavors = "kucay_fancy"
-[metafile.kiwi]
-flavors = "kucay_fancy"
-[metafile.konkrete]
-flavors = "kucay_fancy"
-[metafile.kotlin-for-forge]
-flavors = "kucay_fancy"
-[metafile.kotlinlangforge]
-flavors = "kucay_fancy"
-[metafile.kubejs]
-flavors = "kucay_fancy"
-[metafile.lambdynamiclights]
-flavors = "kucay_fancy"
-[metafile.languagereloadunofficial]
-flavors = "kucay_fancy"
-[metafile.lets-do-addon-compat]
-flavors = "kucay_fancy"
-[metafile.lets-do-bakery-farm-charm-compat]
-flavors = "kucay_fancy"
-[metafile.lets-do-brewery-farm-charm-compat]
-flavors = "kucay_fancy"
-[metafile.lets-do-farm-charm]
-flavors = "kucay_fancy"
-[metafile.lets-do-furniture]
-flavors = "kucay_fancy"
-[metafile.lets-do-herbal-brews]
-flavors = "kucay_fancy"
-[metafile.lets-do-vinery]
-flavors = "kucay_fancy"
-[metafile.lithium]
-flavors = "kucay_fancy"
-[metafile.lodestone]
-flavors = "kucay_fancy"
-[metafile.lootr]
-flavors = "kucay_fancy"
-[metafile.map-atlases-forge]
-flavors = "kucay_fancy"
-[metafile.mod-menu-neoforge-edition]
-flavors = "kucay_fancy"
-[metafile.model-gap-fix]
-flavors = "kucay_fancy"
-[metafile.modernfix]
-flavors = "kucay_fancy"
-[metafile.moonlight]
-flavors = "kucay_fancy"
-[metafile.moreculling]
-flavors = "kucay_fancy"
-[metafile.mouse-tweaks]
-flavors = "kucay_fancy"
-[metafile.mysterious-mountain-lib]
-flavors = "kucay_fancy"
-[metafile.natures-spirit]
-flavors = "kucay_fancy"
-[metafile.necronomicon]
-flavors = "kucay_fancy"
-[metafile.no-chat-reports]
-flavors = "kucay_fancy"
-[metafile.notenoughrecipebook]
-flavors = "kucay_fancy"
-[metafile.numismatics]
-flavors = "kucay_fancy"
-[metafile.obe]
-flavors = "kucay_fancy"
+flavours = "shader"
+
+[metafile.createsoftmotion]
+flavours = "tweak_motion_on"
+[metafile.a-good-place]
+flavours = "tweak_motion_on"
+
+[metafile.emf-compat-core]
+flavours = "emf_comp_on"
+[metafile.emf-compat-create]
+flavours = "emf_comp_on"
+[metafile.emf-compat-quark]
+flavours = "emf_comp_on"
+
+[metafile.in-game-account-switcher]
+flavours = "admintools_on"
 [metafile.observable]
-flavors = "kucay_fancy"
-[metafile.packed-packs]
-flavors = "kucay_fancy"
-[metafile.packet-fixer]
-flavors = "kucay_fancy"
-[metafile.pandalib]
-flavors = "kucay_fancy"
-[metafile.pandas-falling-trees]
-flavors = "kucay_fancy"
-[metafile.particle-core]
-flavors = "kucay_fancy"
-[metafile.polymorph]
-flavors = "kucay_fancy"
-[metafile.potion-stacks]
-flavors = "kucay_fancy"
-[metafile.power-grid]
-flavors = "kucay_fancy"
-[metafile.prickle]
-flavors = "kucay_fancy"
-[metafile.progresspeek]
-flavors = "kucay_fancy"
-[metafile.puzzles-lib]
-flavors = "kucay_fancy"
-[metafile.quark]
-flavors = "kucay_fancy"
-[metafile.quick-pack]
-flavors = "kucay_fancy"
-[metafile.ragdoll-reactions]
-flavors = "kucay_fancy"
-[metafile.reconnectible-chains]
-flavors = "kucay_fancy"
-[metafile.reeses-sodium-options]
-flavors = "kucay_fancy"
-[metafile.refurbished-furniture]
-flavors = "kucay_fancy"
-[metafile.resourceful-config]
-flavors = "kucay_fancy"
-[metafile.rhino]
-flavors = "kucay_fancy"
-[metafile.sable-cleanup]
-flavors = "kucay_fancy"
-[metafile.sable-physics-compat]
-flavors = "kucay_fancy"
-[metafile.sable-ragdoll-corpse]
-flavors = "kucay_fancy"
-[metafile.sable-ragdolls]
-flavors = "kucay_fancy"
-[metafile.sable]
-flavors = "kucay_fancy"
-[metafile.saturn]
-flavors = "kucay_fancy"
-[metafile.scholar]
-flavors = "kucay_fancy"
-[metafile.seamless-sleep]
-flavors = "kucay_fancy"
-[metafile.searchables]
-flavors = "kucay_fancy"
-[metafile.selene]
-flavors = "kucay_fancy"
-[metafile.shatterbyte-lib]
-flavors = "kucay_fancy"
-[metafile.simple-netherite-horse-armor]
-flavors = "kucay_fancy"
-[metafile.simple-voice-chat]
-flavors = "kucay_fancy"
-[metafile.sodium-extra]
-flavors = "kucay_fancy"
-[metafile.sodium]
-flavors = "kucay_fancy"
-[metafile.some-assembly-required]
-flavors = "kucay_fancy"
-[metafile.sophisticated-backpacks]
-flavors = "kucay_fancy"
-[metafile.sophisticated-core]
-flavors = "kucay_fancy"
-[metafile.starcatcher]
-flavors = "kucay_fancy"
-[metafile.steam-n-rails-neoforge]
-flavors = "kucay_fancy"
-[metafile.structure-layout-optimizer]
-flavors = "kucay_fancy"
-[metafile.supplementaries]
-flavors = "kucay_fancy"
-[metafile.terrablender]
-flavors = "kucay_fancy"
-[metafile.trade-cycling]
-flavors = "kucay_fancy"
-[metafile.trashslot]
-flavors = "kucay_fancy"
-[metafile.txnilib]
-flavors = "kucay_fancy"
-[metafile.veinminer-mod]
-flavors = "kucay_fancy"
-[metafile.vs-hose-connectors]
-flavors = "kucay_fancy"
-[metafile.xaeros-minimap]
-flavors = "kucay_fancy"
-[metafile.xaeros-world-map]
-flavors = "kucay_fancy"
-[metafile.yacl]
-flavors = "kucay_fancy"
-[metafile.yeetusexperimentus]
-flavors = "kucay_fancy"
-[metafile.zeta]
-flavors = "kucay_fancy"
-[metafile.zfastnoise]
-flavors = "kucay_fancy"
-[metafile.zume]
-flavors = "kucay_fancy"
+flavours = "admintools_on"
+[metafile.spark]
+flavours = "admintools_on"
+
+[metafile.punchy-fpa]
+flavours = "punchy_on"
+
+[metafile.distanthorizons]
+flavours = "dh_on"
