@@ -1,0 +1,13 @@
+name = "Create:SoftMotion"
+filename = "Create-SoftMotion-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/BZXBrZRO/versions/8I24dAn6/Create-SoftMotion-1.0.0.jar"
+hash-format = "sha512"
+hash = "9048473b9b255d310e40b21e624559ac4859b539094f27b860a125994197c74be3a20a6a166f7928c397e8c6e94edca40d1652c7e4a978ebc1276eee159f81f9"
+
+[update]
+[update.modrinth]
+mod-id = "BZXBrZRO"
+version = "8I24dAn6"

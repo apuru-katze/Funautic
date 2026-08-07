@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Vapor Trails"
+filename = "vaportrails-1.0.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/MuzFaOWv/versions/cSAqvL73/vaportrails-1.0.2.jar"
+hash-format = "sha512"
+hash = "a476598dff6e9401b67a6d7e3e655538a85041c5de11f739febd298a5764794e084acd56cb2f19dcbfbd6cb8407c00c28e951b5a8aabf6552952acddf85a1639"
+
+[update]
+[update.modrinth]
+mod-id = "MuzFaOWv"
+version = "cSAqvL73"

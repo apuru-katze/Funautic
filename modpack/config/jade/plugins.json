@@ -56,12 +56,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "camerapture": {
-    "picture_frame": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -72,10 +66,6 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -83,22 +73,11 @@
     "entity": true,
     "entity_variant": true
   },
-  "jadeaddons.lootr": {
-    "info": true
-  },
-  "kaleidoscope_cookery": {
-    "chopping_board": true,
-    "shawarma_spit": true,
-    "recipe_block": true,
-    "food_bite_block": true,
-    "millstone": true,
-    "enamel_basin": true
+  "create_package_tooltip": {
+    "jade_tooltip": true
   },
   "kaleidoscope_chinesefood": {
     "pickle_jar": true
-  },
-  "supplementaries": {
-    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -113,5 +92,33 @@
   },
   "balm": {
     "jade": true
+  },
+  "camerapture": {
+    "picture_frame": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "kaleidoscope_cookery": {
+    "chopping_board": true,
+    "shawarma_spit": true,
+    "recipe_block": true,
+    "food_bite_block": true,
+    "millstone": true,
+    "enamel_basin": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "item_descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
   }
 }

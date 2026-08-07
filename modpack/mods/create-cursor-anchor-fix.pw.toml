@@ -1,0 +1,13 @@
+name = "Create Cursor Anchor Fix"
+filename = "createcursoranchor-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/S8yfKmO3/versions/sv1CpEFv/createcursoranchor-1.0.0.jar"
+hash-format = "sha512"
+hash = "c81f3abc81e2263f3ae8f75c4fafd0ea9a7fe857dbd765b2d8c40dc30b218a783b4cb2fae753962c28b3976f2c3f6ede5be6f98a4206a7adb11239f514ee47ca"
+
+[update]
+[update.modrinth]
+mod-id = "S8yfKmO3"
+version = "sv1CpEFv"

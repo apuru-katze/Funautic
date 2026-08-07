@@ -50,8 +50,6 @@ mod_parents = []
 	hide_mod_credits = false
 	#Hides mod's config button
 	hide_config_buttons = false
-	#hides button which allows changing mod's badge
-	hide_badge_buttons = true
 	#Hides search bar and drag and drop text, also moves mod's icon up
 	hide_screen_top = false
 	#Add modid of the mod to hide it from the modlist
@@ -60,6 +58,8 @@ mod_parents = []
 	hidden_configs = []
 	#deprecated
 	library_list = []
+	#hides button which allows changing mod's badge
+	hide_badge_buttons = true
 
 	#deprecated
 	[hide.disable_default_badges_section]

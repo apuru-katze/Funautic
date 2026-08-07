@@ -1,10 +1,13 @@
 {
   "balm:jade": null,
   "camerapture:picture_frame": null,
+  "create_package_tooltip:jade_tooltip": null,
   "exposure:lightroom": null,
   "exposure:photograph_frame": null,
   "framedblocks:framed_block_generic": null,
   "framedblocks:framed_item_frame": null,
+  "item_descriptions:block_descriptions": null,
+  "item_descriptions:entity_descriptions": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,

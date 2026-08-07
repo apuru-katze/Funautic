@@ -34137,6 +34137,26 @@
     "maxWaterDepth": 8,
     "implosionChance": 0.85
   },
+  "supplementaries:brittlestone": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.76666665
+  },
+  "supplementaries:brittlestone_bricks": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.7
+  },
+  "supplementaries:brittlestone_bricks_slab": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.7
+  },
+  "supplementaries:brittlestone_bricks_stairs": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.7
+  },
+  "supplementaries:brittlestone_bricks_wall": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.7
+  },
   "supplementaries:bubble_block": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -34605,6 +34625,10 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "supplementaries:moving_pulley_block": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
   "supplementaries:moving_slidy_block": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -34737,6 +34761,10 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.85
   },
+  "supplementaries:rope_tomatoes": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
   "supplementaries:sack": {
     "maxWaterDepth": 13,
     "implosionChance": 0.85
@@ -34810,6 +34838,10 @@
     "implosionChance": 0.78
   },
   "supplementaries:stick": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "supplementaries:stick_tomatoes": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },

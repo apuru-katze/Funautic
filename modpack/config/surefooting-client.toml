@@ -1,0 +1,26 @@
+#Keep moving with a Sable sub-level while jumping so you land where you took off.
+enabled = true
+#While airborne over a rotating sub-level, rotate your velocity with the sub-level's frame so a jump aimed at a spot on the platform lands on that spot. Without this, your jump direction stays fixed in world space while the platform turns away under you.
+rotate_jump_velocity = true
+#Also rotate your velocity with the sub-level's frame while walking on it, cancelling most of the sideways (Coriolis-like) pull you feel when moving on a fast-spinning platform. Your retained momentum otherwise stays fixed in world space each tick while the platform rotates under you, so every step drifts toward the trailing side.
+rotate_ground_velocity = true
+#Multiplier on the airborne velocity rotation. 1.0 aligns your velocity to the frame at each tick's end, which still trails the rotation slightly while the velocity is applied; values above 1.0 add lead so cross-jumps stay accurate however fast the platform spins. The default was tuned in-game (pure theory says 1.5; practice landed lower). Only affects airborne movement.
+# Default: 1.16
+# Range: 0.5 ~ 3.0
+jump_rotation_strength = 1.16
+#Multiplier on the grounded velocity rotation. 1.0 rotates your momentum exactly with the frame; values above 1.0 over-rotate to also compensate the per-step lag (each step executes as a straight world-space line while the platform keeps turning mid-step). If you still drift toward the trailing side on a fast spinner, raise this; if you curl into the spin, lower it. Only affects grounded movement.
+# Default: 2.25
+# Range: 0.0 ~ 3.0
+ground_rotation_strength = 2.25
+#Maximum number of ticks to stay in a sub-level's reference frame while airborne. A vanilla jump takes ~12 ticks; the timeout only matters for long falls.
+# Default: 60
+# Range: 1 ~ 1200
+carry_timeout_ticks = 60
+#Stop moving with the sub-level once you are this many blocks outside its bounding box, so deliberately jumping off a contraption doesn't drag you along.
+# Default: 4.0
+# Range: 0.0 ~ 64.0
+exit_distance_blocks = 4.0
+#Keep particles (smoke, flames, block breaking, ...) anchored to the sub-level they spawned on for as long as they stay near it. Sable normally releases a particle once it drifts half a block, flinging it tangentially on fast contraptions.
+anchor_particles = true
+#Log carry transitions and per-jump landing offsets for debugging.
+debug_logging = false

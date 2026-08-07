@@ -55,8 +55,8 @@ jobs:
               cp -r $branch/$version/* out/$branch/$version/
               
               if [ -d "out/$branch/$version/mmcpack" ]; then
-                (cd $branch/$version/mmcpack && zip -q -r ../../../out/$branch/$version/modpack.zip .)
-                echo "-> modpack.zip berhasil dibuat dan folder mmcpack tetap dipertahankan."
+                (cd $branch/$version/mmcpack && zip -q -r ../../../out/$branch/$version/Funautic.zip .)
+                echo "-> Funautic.zip berhasil dibuat dan folder mmcpack tetap dipertahankan."
               else
                 echo "-> Peringatan: Folder mmcpack tidak ditemukan di $branch/$version. Zip diabaikan."
               fi

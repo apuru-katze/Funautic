@@ -1,0 +1,10 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": -15
+            }
+        }
+    }
+}

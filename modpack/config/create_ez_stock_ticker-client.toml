@@ -1,0 +1,4 @@
+ez_stock_ticker_enabled = true
+auto_focus_search_field = true
+ctrl_scroll = 128
+shift_scroll = 320

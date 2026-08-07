@@ -1,0 +1,13 @@
+name = "Music Notification"
+filename = "musicnotification-neoforge-3.2.1+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6827da3d5c772959bacf48ead2095323599fd0bf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8486602
+project-id = 817206

@@ -272,10 +272,10 @@
 
 [management]
 	"Automatic Tool Restock" = false
-	"Easy Transferring" = true
-	"Expanded Item Interactions" = true
+	"Easy Transferring" = false
+	"Expanded Item Interactions" = false
 	"Hotbar Changer" = false
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
 
@@ -1534,10 +1534,10 @@
 	"Back Button Keybind" = true
 	"Buckets Show Inhabitants" = true
 	Camera = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Elytra Indicator" = true
 	"Greener Grass" = false
-	"Improved Tooltips" = true
+	"Improved Tooltips" = false
 	"Long Range Pick Block" = true
 	"Microcrafting Helper" = true
 	"Soul Candles" = true
