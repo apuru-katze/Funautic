@@ -31,30 +31,37 @@ description = "Shader dan optimasinya"
 name = "Distant Horizon"
 side = "client"
 choices = ["dh_off", "dh_on"]
+description = "Menambahkan Chunk View Lebih jauh"
 [flavor_groups.camtweak]
 name = "Camera Tweaks"
 side = "client"
 choices = ["camtweak_off", "camtweak_on"]
+description = "Tweak View agar lebih Immersive saat bermain"
 [flavor_groups.cltweak]
 name = "Client Tweaks"
 side = "client"
 choices = ["cltweak_off", "cltweak_on"]
+description = "Pair dengan Punchy. Tweak Inventory, HUD Inventory, dan tweak kecil seperti off hand torch only tools"
 [flavor_groups.soundtweak]
 name = "Immersive Sounds"
 side = "client"
 choices = ["soundtweak_off", "soundtweak_on"]
+description = "Immersive Sound seperti kicauan burung maupun item di inventory"
 [flavor_groups.atmospherics]
 name = "Atmospherics"
 side = "client"
 choices = ["atmospherics_off", "atmospherics_on"]
+description = "Atmospheric, jangan pair sama DH jika View Distance kamu rendah"
 [flavor_groups.tooltips]
 name = "Tooltips"
 side = "client"
 choices = ["tooltips_off", "tooltips_on"]
+description = "Tooltips item, informasi yang cukup berguna jika sedang hover"
 [flavor_groups.motitweak]
 name = "Tweak Motion"
 side = "client"
 choices = ["motitweak_off", "motitweak_on"]
+description = "Motion Tweak untuk place block dan Propeler aeronautic"
 # [flavor_groups.emftweak]
 # name = "EMF Compability"
 # side = "client"
@@ -63,10 +70,12 @@ choices = ["motitweak_off", "motitweak_on"]
 name = "Punchy"
 side = "client"
 choices = ["punchy_off", "punchy_on"]
+description = "Punchy, animasi 1st person"
 [flavor_groups.admintools]
 name = "Admin Tools"
 side = "client"
 choices = ["admintools_off", "admintools_on"]
+description = "Tools khusus Admin"
 
 # Modlist
 [metafile.3dskinlayers]
