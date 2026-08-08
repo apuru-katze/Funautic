@@ -117,6 +117,10 @@ flavors = "funautic_fancy"
 flavors = "funautic_fancy"
 [metafile.wakes-reforged]
 flavors = "funautic_fancy"
+[metafile.ship-trails-for-sable]
+flavors = "funautic_fancy"
+[metafile.create-aeronautics-vapor-trails]
+flavors = "funautic_fancy"
 
 [metafile.atmospherics]
 flavors = "atmospherics_on"
