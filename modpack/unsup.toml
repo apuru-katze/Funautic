@@ -70,135 +70,135 @@ choices = ["admintools_off", "admintools_on"]
 
 # Modlist
 [metafile.3dskinlayers]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.better-clouds]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.blur-plus]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.chatanimation]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.cherished-worlds]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.detail-armor-bar-reconstructed]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.effectual]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.enchanted-fishing-line]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.entity-model-features]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.entity-texture-features-fabric]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.explosive-enhancement-reforged]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.immersive-ui]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.itemphysic-lite]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.make_bubbles_pop]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.particle-effects]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.particle-rain]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.particular-reforged]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.perception]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.polytone]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.smooth-gui]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.subtle-effects]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.tiny-item-animations]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.visuality-forge]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 [metafile.wakes-reforged]
-flavours = "funautic_fancy"
+flavors = "funautic_fancy"
 
 [metafile.atmospherics]
-flavours = "atmospherics_on"
+flavors = "atmospherics_on"
 
 [metafile.aeronautics-wind-sound]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 [metafile.ambientsounds]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 [metafile.create-rolling-tones]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 [metafile.dripsounds]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 [metafile.more-sounds]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 [metafile.music-notification]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 [metafile.pf-neoforge]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 [metafile.presence-footsteps-x-sable]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 [metafile.sound-physics-aeronautics]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 [metafile.sound-physics-remastered]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 [metafile.sound]
-flavours = "soundtweak_on"
+flavors = "soundtweak_on"
 
 [metafile.aero_cam_sync]
-flavours = "camtweak_on"
+flavors = "camtweak_on"
 [metafile.cameraoverhaul]
-flavours = "camtweak_on"
+flavors = "camtweak_on"
 
 [metafile.boat-item-view]
-flavours = "cltweak_on"
+flavors = "cltweak_on"
 [metafile.cleancut]
-flavours = "cltweak_on"
+flavors = "cltweak_on"
 [metafile.client-tweaks]
-flavours = "cltweak_on"
+flavors = "cltweak_on"
 [metafile.inventory-hud-forge]
-flavours = "cltweak_on"
+flavors = "cltweak_on"
 [metafile.inventory-profiles-next]
-flavours = "cltweak_on"
+flavors = "cltweak_on"
 [metafile.jump-over-fences]
-flavours = "cltweak_on"
+flavors = "cltweak_on"
 
 [metafile.clean-tooltips]
-flavours = "tooltips_on"
+flavors = "tooltips_on"
 [metafile.create-package-tooltip]
-flavours = "tooltips_on"
+flavors = "tooltips_on"
 [metafile.obscure-tooltips]
-flavours = "tooltips_on"
+flavors = "tooltips_on"
 
 [metafile.colorwheel-patcher]
-flavours = "shader"
+flavors = "shader"
 [metafile.colorwheel]
-flavours = "shader"
+flavors = "shader"
 [metafile.createbetterfps]
-flavours = "shader"
+flavors = "shader"
 [metafile.irisshaders]
-flavours = "shader"
+flavors = "shader"
 
 [metafile.createsoftmotion]
-flavours = "motitweak_on"
+flavors = "motitweak_on"
 [metafile.a-good-place]
-flavours = "motitweak_on"
+flavors = "motitweak_on"
 
 [metafile.emf-compat-core]
-flavours = "emftweak_on"
+flavors = "emftweak_on"
 [metafile.emf-compat-create]
-flavours = "emftweak_on"
+flavors = "emftweak_on"
 [metafile.emf-compat-quark]
-flavours = "emftweak_on"
+flavors = "emftweak_on"
 
 [metafile.in-game-account-switcher]
-flavours = "admintools_on"
+flavors = "admintools_on"
 [metafile.observable]
-flavours = "admintools_on"
+flavors = "admintools_on"
 [metafile.spark]
-flavours = "admintools_on"
+flavors = "admintools_on"
 
 [metafile.punchy-fpa]
-flavours = "punchy_on"
+flavors = "punchy_on"
 
 [metafile.distanthorizons]
-flavours = "dh_on"
+flavors = "dh_on"
