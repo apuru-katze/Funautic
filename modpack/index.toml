@@ -2224,21 +2224,6 @@ hash = "73adb59ea91b825485025349d0feab4f1124cb2d13e097ac76b272b1301f9284"
 metafile = true
 
 [[files]]
-file = "mods/emf-compat-core.pw.toml"
-hash = "27b7944031f18e4d73dbc54870f6040cb5f867bdab2cf560d9877b838dd27209"
-metafile = true
-
-[[files]]
-file = "mods/emf-compat-create.pw.toml"
-hash = "3b51b13de60fa3582223bd4c29384311fc79c4820264eaf6fb4ebe4e417b5f8c"
-metafile = true
-
-[[files]]
-file = "mods/emf-compat-quark.pw.toml"
-hash = "bebe3f9f0544a927743b60c4e7dc9bcbe28775a62284434e6316d8b818bf7cb8"
-metafile = true
-
-[[files]]
 file = "mods/emi-create-schematics.pw.toml"
 hash = "e0da63d5ba6b0649e29325584dd15046070f7b5b251f41fc7e33ce85be240f8f"
 metafile = true
@@ -2949,11 +2934,6 @@ hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
 
 [[files]]
-file = "mods/ship-trails-for-sable.pw.toml"
-hash = "029dc3ea16babfec6fe6dfad4d451ea23f355d6206cd862ba1bab3ec1a814912"
-metafile = true
-
-[[files]]
 file = "mods/shut-up-gl-error.pw.toml"
 hash = "2a5158acf9b23d9e23fc5097dbf3a12f57458a107b3a2d2794317c298aa203fa"
 metafile = true
@@ -2985,7 +2965,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "1600eda44f49ff0eebdacd09f4dac319c4b267940989b7d3deeee28cb6734a62"
+hash = "8b237735f64f339d35d40eaceb76cdf137fd05a49b452d2a8c3434cada762e11"
 metafile = true
 
 [[files]]

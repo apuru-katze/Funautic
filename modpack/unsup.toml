@@ -55,10 +55,10 @@ choices = ["tooltips_off", "tooltips_on"]
 name = "Tweak Motion"
 side = "client"
 choices = ["motitweak_off", "motitweak_on"]
-[flavor_groups.emftweak]
-name = "EMF Compability"
-side = "client"
-choices = ["emftweak_off", "emftweak_on"]
+# [flavor_groups.emftweak]
+# name = "EMF Compability"
+# side = "client"
+# choices = ["emftweak_off", "emftweak_on"]
 [flavor_groups.punchy]
 name = "Punchy"
 side = "client"
@@ -116,8 +116,6 @@ flavors = "funautic_fancy"
 [metafile.visuality-forge]
 flavors = "funautic_fancy"
 [metafile.wakes-reforged]
-flavors = "funautic_fancy"
-[metafile.ship-trails-for-sable]
 flavors = "funautic_fancy"
 [metafile.create-aeronautics-vapor-trails]
 flavors = "funautic_fancy"
@@ -187,12 +185,10 @@ flavors = "motitweak_on"
 [metafile.a-good-place]
 flavors = "motitweak_on"
 
-[metafile.emf-compat-core]
-flavors = "emftweak_on"
-[metafile.emf-compat-create]
-flavors = "emftweak_on"
-[metafile.emf-compat-quark]
-flavors = "emftweak_on"
+# [metafile.emf-compat-core]
+# flavors = "emftweak_on"
+# [metafile.emf-compat-create]
+# flavors = "emftweak_on"
 
 [metafile.in-game-account-switcher]
 flavors = "admintools_on"
