@@ -1749,6 +1749,11 @@ hash = "392901b7f79963442553456af846d06f48b4057a054a928adb8a76eea13c6383"
 metafile = true
 
 [[files]]
+file = "mods/barbeques-delight-forge.pw.toml"
+hash = "1b8eb6843f324324f30e7d135e25ab89939e93ddd91421282fb6f0f358ec50c1"
+metafile = true
+
+[[files]]
 file = "mods/bbrb.pw.toml"
 hash = "d3e067134ecb835b1a02e6f10666033d71ac017a21f17b3a5efeca756482642a"
 metafile = true
@@ -3076,6 +3081,31 @@ metafile = true
 [[files]]
 file = "mods/wakes-reforged.pw.toml"
 hash = "c170c3dd60f365ba7976ae8c143799a9ca07c8651c0b4b39cf6a43f45628d437"
+metafile = true
+
+[[files]]
+file = "mods/waterframes.pw.toml"
+hash = "59e15d108b41b10145596a3ef899ad20ef8c8885504eef10cd89225aef87daef"
+metafile = true
+
+[[files]]
+file = "mods/watermedia-yt-plugin.pw.toml"
+hash = "4faf890cddc7addc968e262b4bc55ca47f59e482fa5c23e780def45d099f84e4"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "9c14d2011a343872dfa72aee64ef7beb2f9f9e47867807b4b03726cfa8e429b7"
+metafile = true
+
+[[files]]
+file = "mods/watervision.pw.toml"
+hash = "393310e8c75c51eb3143c8ddcdac51917a5d759d428e5b962e4c2b4c8e87bc0e"
+metafile = true
+
+[[files]]
+file = "mods/whimsy-deco.pw.toml"
+hash = "327dcd023f8c426acc3f82294f34a3a1489464c8331a948986f656e7c8acad82"
 metafile = true
 
 [[files]]
