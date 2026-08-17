@@ -1,0 +1,13 @@
+name = "Passable Foliage 🌳"
+filename = "PassableFoliage-1.21.1-NeoForge-9.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uaLW6JVR/versions/VoxaYvtZ/PassableFoliage-1.21.1-NeoForge-9.2.0.jar"
+hash-format = "sha512"
+hash = "649be5c37f9f366c52451656dcb21eee0f0426a81c1b4f46e32bec7a007284dd66168133a09daa9bcee524eff4dab68cf48e7e20c1937cf3ed2f3a933664d427"
+
+[update]
+[update.modrinth]
+mod-id = "uaLW6JVR"
+version = "VoxaYvtZ"

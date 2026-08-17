@@ -1704,6 +1704,11 @@ hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
+file = "mods/areas.pw.toml"
+hash = "ce2ea1923c3ed0f7a49f94db67de56a11cc3df2fc9d613b8420a37bb292cb69f"
+metafile = true
+
+[[files]]
 file = "mods/armor-statues.pw.toml"
 hash = "4f5e2e271bc23583ad0e46b951d69497ef744895491447597c77dcd9e6aaa01f"
 metafile = true
@@ -1861,6 +1866,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "e37aafe5cd58c8289c3b8929393cba2a5c7f2cdd5bbe01e9c6ada1f3f5b86436"
 metafile = true
 
 [[files]]
@@ -2029,6 +2039,11 @@ hash = "0bfe281ddfbe98454d57fb2227962065796717739d81a912a075b0c8df232c6b"
 metafile = true
 
 [[files]]
+file = "mods/create-jetpack.pw.toml"
+hash = "157b009cd9b2a7f55f2b7d0abdc2f9f7d49eade208a786c71cc6d2f8430bba4a"
+metafile = true
+
+[[files]]
 file = "mods/create-nowheel.pw.toml"
 hash = "6cac4e9daee3b12492b92871f31f4f7d662b412a223fcd1301896db48ded3bc1"
 metafile = true
@@ -2156,6 +2171,11 @@ metafile = true
 [[files]]
 file = "mods/discord-chat-connect.pw.toml"
 hash = "2f75c4220e4704cabf842d782d12c9d25a12edfa3ebbc5c7540488cb3d3ab36e"
+metafile = true
+
+[[files]]
+file = "mods/display-delight.pw.toml"
+hash = "18219006cd971209a7630c5704c2ca92d5631f3d6ee6cb1c43975656c249ba0f"
 metafile = true
 
 [[files]]
@@ -2356,6 +2376,11 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "bdc751ad0e632ae3b25839d12bd5d548f575719baf61767b5ab64aa99d120ccc"
+metafile = true
+
+[[files]]
+file = "mods/fracturepoint.pw.toml"
+hash = "2fee193b7618d54062de5c736e32229a091a1adbe3208ab4bec8365656200570"
 metafile = true
 
 [[files]]
@@ -2704,6 +2729,11 @@ hash = "6acba5e53610fc3e62bd9641aeaaba056f99248a2d1d86bbf032061a1e408826"
 metafile = true
 
 [[files]]
+file = "mods/nirvana-mod.pw.toml"
+hash = "87df71301e5341c07bc2066ac7c7eefd684b988dc7f22875a105489cefcb1b78"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "26aca541ff9f149ef8bfdf69efb258d23339affd9fba4612bddd01e759fb0ffd"
 metafile = true
@@ -2776,6 +2806,11 @@ metafile = true
 [[files]]
 file = "mods/particular-reforged.pw.toml"
 hash = "e1829765957db3777232d634f9d38222e669da17f95722f42bb422de141d4d99"
+metafile = true
+
+[[files]]
+file = "mods/passable-foliage.pw.toml"
+hash = "7c2eaa79d6d50bc8412668ae36ae098b216d089f8b808055c67282b643cbe03c"
 metafile = true
 
 [[files]]
@@ -2924,6 +2959,16 @@ hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
 
 [[files]]
+file = "mods/selfexpression-slim.pw.toml"
+hash = "084601fa240e44c31167c66b8b47ec9f0a1fc89b1d8ec0cf15b5098010c22c7c"
+metafile = true
+
+[[files]]
+file = "mods/selfexpression.pw.toml"
+hash = "833f7b885decea31bc67e8a5b0f6ed50b895e77a2279b160a443a098ad7cacc8"
+metafile = true
+
+[[files]]
 file = "mods/shatterbyte-lib.pw.toml"
 hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
@@ -3021,6 +3066,21 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "e4ced1c70be45fd8e734418769c36f8af66b62d46c5171e931b7195cd84de434"
+metafile = true
+
+[[files]]
+file = "mods/tacz-1.21.1.pw.toml"
+hash = "64a5ad1bbb2ca9e94053e4e6b7f0e5d762c2c7bea7674c168a6819e5782a99d6"
+metafile = true
+
+[[files]]
+file = "mods/tacz-pack-upgrader.pw.toml"
+hash = "4d4ce3197d8bd556afee26362180070066a6754c14da5ea1c400f7d588fef7e4"
+metafile = true
+
+[[files]]
+file = "mods/tacz-tweaks.pw.toml"
+hash = "be9b9c48135b317ed2311066eb2d280df4d6fb6f91d4e278cc7af65a9de0cc1a"
 metafile = true
 
 [[files]]
