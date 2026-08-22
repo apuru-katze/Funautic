@@ -1,13 +1,13 @@
 name = "Sound Physics: Aeronautics"
-filename = "sound-physics-aeronautics-1.3.0.jar"
+filename = "sound-physics-aeronautics-1.3.0.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/JHKPj7kB/versions/jXroeyau/sound-physics-aeronautics-1.3.0.jar"
+url = "https://cdn.modrinth.com/data/JHKPj7kB/versions/UTWPZYUP/sound-physics-aeronautics-1.3.0.2.jar"
 hash-format = "sha512"
-hash = "79c6d9a748a5e2dc1f94b60623b17b8e0e3daaa388cc6843fdf400052951221bf7cc02da1cae7a6df7079a22808693086a4f29ef38a09cb421ffaeda613524b8"
+hash = "2614f3f95c2c2115386dd25f34b4f7fba04786e376c7bd1f3ed7d89a492df18e35818a5093d40099244c98d72c157ce46fcce617babc8e055e761de99312b11b"
 
 [update]
 [update.modrinth]
 mod-id = "JHKPj7kB"
-version = "jXroeyau"
+version = "UTWPZYUP"

@@ -1,0 +1,13 @@
+name = "Random Optimization"
+filename = "randomoptimization-1.7.4-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Mjoo9rPv/versions/hNTChHCI/randomoptimization-1.7.4-all.jar"
+hash-format = "sha512"
+hash = "588fb17153cd8309bb2d791ea42833737de910d516d17e4ed6e423b2a4041a5d516234631707148df300c73d53d11f9e4850e638685cc76c648d20323aa517ae"
+
+[update]
+[update.modrinth]
+mod-id = "Mjoo9rPv"
+version = "hNTChHCI"

@@ -1,0 +1,13 @@
+name = "Furniture with create and sable compat"
+filename = "createfurnitureseats-4.8.42.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W2K5jx3j/versions/l3DpkqVr/createfurnitureseats-4.8.42.jar"
+hash-format = "sha512"
+hash = "dbde8d7c9d9cd65d014aac78f6755afc519409c2e5113f18b07b37c9cd2b69bafa3621152cd66b95b14c93e0f42c30a1449ad8b2a791c66dd12412ff635c55d0"
+
+[update]
+[update.modrinth]
+mod-id = "W2K5jx3j"
+version = "l3DpkqVr"

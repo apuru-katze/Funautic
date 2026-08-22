@@ -1,13 +1,13 @@
 name = "Brick & Mortar"
-filename = "brick_and_mortar-neoforge-1.21.1-1.1.0.jar"
+filename = "brick_and_mortar-neoforge-1.21.1-1.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "52187c0293d0a106c70bf96ae89a612941dd47f6"
+hash = "2e38a18b4cef4128cf4c5ed42cf6015ebd72a51a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8185645
+file-id = 8289573
 project-id = 1557514

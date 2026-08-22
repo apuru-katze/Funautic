@@ -136,8 +136,6 @@ flavors = "atmospherics_on"
 flavors = "soundtweak_on"
 [metafile.ambientsounds]
 flavors = "soundtweak_on"
-[metafile.create-rolling-tones]
-flavors = "soundtweak_on"
 [metafile.dripsounds]
 flavors = "soundtweak_on"
 [metafile.more-sounds]
