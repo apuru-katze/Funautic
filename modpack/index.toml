@@ -1819,6 +1819,11 @@ hash = "2c5b523226d832a1e653c3f549c5848e51b1af8aa179c732dd15376ce331fbbf"
 metafile = true
 
 [[files]]
+file = "mods/butchery.pw.toml"
+hash = "8a7555f209cac1c0ed786b13c3600599f1f12af707643efe5a5d44840db8d35c"
+metafile = true
+
+[[files]]
 file = "mods/cameraoverhaul.pw.toml"
 hash = "f74b4cf5a648f3b55d0319a559d2264f8bc34b8d760c8a60850e32ed2ab6da4d"
 metafile = true
@@ -2519,6 +2524,11 @@ hash = "e739b7355ab3cfba2e729f8f0b51eafc3d9c3afb19ee30ac7b311631610c5e66"
 metafile = true
 
 [[files]]
+file = "mods/jakes-build-tools.pw.toml"
+hash = "3165dc4ae8367f087c4140074995bbc60f65e856fc01d305d2a543fb140e1efd"
+metafile = true
+
+[[files]]
 file = "mods/jamlib.pw.toml"
 hash = "750f4b552490779af147a9c70a558ab2aa1cbfd8331d5ad69efefa099854dfae"
 metafile = true
@@ -2556,6 +2566,11 @@ metafile = true
 [[files]]
 file = "mods/kaleidoscopechinesefood.pw.toml"
 hash = "995c3ae0203fdfa2dd51beb42acec1252a1375b68bb0e06231c8ed3e5bb0d751"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscopetavern.pw.toml"
+hash = "64b32907185ca1477a4f1335af4cc3068c4ea9e5ea537ce408b360d595609acc"
 metafile = true
 
 [[files]]
