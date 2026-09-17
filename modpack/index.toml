@@ -1774,11 +1774,6 @@ hash = "84fd12a30b0fecc1df5c03b6ec1bcbd6263211e65e17f24075a54773af6bfaff"
 metafile = true
 
 [[files]]
-file = "mods/bens-sharks.pw.toml"
-hash = "4455b4d54333518d2dda9f59a1ebf962d320b87806a4f558cf5b8a9007fd18c8"
-metafile = true
-
-[[files]]
 file = "mods/better-clouds.pw.toml"
 hash = "d444cf98e8139d9863bf791c3ea90f6036f6184b877a53c79f53e3ce52fe5b7d"
 metafile = true
@@ -2389,11 +2384,6 @@ hash = "e3c62164f1eed254aa04629bce3d62b34a65bf15801d2ffb1bf1373a0b97c544"
 metafile = true
 
 [[files]]
-file = "mods/fracturepoint.pw.toml"
-hash = "2fee193b7618d54062de5c736e32229a091a1adbe3208ab4bec8365656200570"
-metafile = true
-
-[[files]]
 file = "mods/fragmentum.pw.toml"
 hash = "c06d63951ace7b3e7b33ae6b6ae524452bccb0ebe3ecb5fe048b315ca150c92b"
 metafile = true
@@ -2994,16 +2984,6 @@ hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
 
 [[files]]
-file = "mods/selfexpression-slim.pw.toml"
-hash = "084601fa240e44c31167c66b8b47ec9f0a1fc89b1d8ec0cf15b5098010c22c7c"
-metafile = true
-
-[[files]]
-file = "mods/selfexpression.pw.toml"
-hash = "833f7b885decea31bc67e8a5b0f6ed50b895e77a2279b160a443a098ad7cacc8"
-metafile = true
-
-[[files]]
 file = "mods/shatterbyte-lib.pw.toml"
 hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
@@ -3106,21 +3086,6 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "2845b7367289659770e8476125f5949c5705790e4a9335b10c82f433a24c6d76"
-metafile = true
-
-[[files]]
-file = "mods/tacz-1.21.1.pw.toml"
-hash = "64a5ad1bbb2ca9e94053e4e6b7f0e5d762c2c7bea7674c168a6819e5782a99d6"
-metafile = true
-
-[[files]]
-file = "mods/tacz-pack-upgrader.pw.toml"
-hash = "4d4ce3197d8bd556afee26362180070066a6754c14da5ea1c400f7d588fef7e4"
-metafile = true
-
-[[files]]
-file = "mods/tacz-tweaks.pw.toml"
-hash = "be9b9c48135b317ed2311066eb2d280df4d6fb6f91d4e278cc7af65a9de0cc1a"
 metafile = true
 
 [[files]]
