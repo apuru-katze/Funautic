@@ -2264,11 +2264,6 @@ hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
 metafile = true
 
 [[files]]
-file = "mods/emiaccelerator.pw.toml"
-hash = "a443b02f5ad929abd2e251fafe385a5cd41f3ec32069e7e72df0892a220856b8"
-metafile = true
-
-[[files]]
 file = "mods/emiffect.pw.toml"
 hash = "b53c40130b7c2f91237cf62480877414296fbea3525f2c824351c0c07f136ddb"
 metafile = true
