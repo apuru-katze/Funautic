@@ -18,6 +18,10 @@ file = "mods/a-good-place.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/accessories.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/aero_cam_sync.pw.toml"
 metafile = true
 
@@ -918,6 +922,10 @@ file = "mods/ok-zoomer.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/packed-packs.pw.toml"
 metafile = true
 
@@ -1071,6 +1079,14 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/selfexpression-slim.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/selfexpression.pw.toml"
 metafile = true
 
 [[files]]
