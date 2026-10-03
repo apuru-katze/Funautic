@@ -35,6 +35,15 @@ jobs:
           echo "<h1>Modpack Repository</h1><p>Status: 200 OK</p>" > out/index.html
           if [ -d "main/mmcpack" ]; then
             (cd main/mmcpack && zip -q -r ../../out/funautic.zip .)
+            
+            if [ -f "main/modpack/pack.toml" ]; then
+              mkdir -p out/modpack
+              cp -r main/modpack/* out/modpack/
+            else
+              echo "Canceled due error script"
+              exit 1
+            fi
+            
           else
             echo "Canceled due error script"
             exit 1
