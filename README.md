@@ -6,7 +6,7 @@ To import modpack, use link bellow and paste at import section. You can download
 
 | Packs    | Link                                                  | Pack Typer |
 | :------- | :---------------------------------------------------- | :--------- | ----------------------------------------------------------------- |
-| `1.21.1` | `https://apuru-katze.github.io/Funautic/Funautic.zip` | MultiMC    | `[download](https://apuru-katze.github.io/Funautic/Funautic.zip)` |
+| `1.21.1` | `https://apuru-katze.github.io/Funautic/funautic.zip` | MultiMC    | `[download](https://apuru-katze.github.io/Funautic/funautic.zip)` |
 
 ## Friend Modpack
 
