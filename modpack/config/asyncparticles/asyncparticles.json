@@ -1,43 +1,6 @@
 {
   "version": 2,
   "particle": {
-    "particleLimit": 3000,
-    "cleanupStrategy": "PARALLEL_WITH_TICK",
-    "parallelQueueRemoval": false,
-    "parallelQueueEviction": false,
-    "particleLightCache": true,
-    "cullUnderwaterParticleType": true
-  },
-  "tick": {
-    "animationTickMode": false,
-    "particleAsyncMode": "SEQUENTIAL",
-    "gpuOnlyAsyncParticleTick": false,
-    "tickWeatherAsync": true,
-    "deferredTextureTick": true,
-    "failPerSecLimit": 5,
-    "failBehavior": "RAISE_CRASH",
-    "suppressCME": false,
-    "syncParticleClasses": []
-  },
-  "rendering": {
-    "particleCulling": "SPHERE",
-    "gpuAcceleration": true,
-    "appendNewParticlesToRenderer": true,
-    "computeExecutionStage": "LEVEL_RENDERING",
-    "cullWeathers": true
-  },
-  "valkyrienSkies": {
-    "rainEffect": "STATIONARY",
-    "fixParticleLights": true
-  },
-  "sable": {
-    "fixParticleLights": true
-  },
-  "create": {
-    "rainEffect": "ALWAYS",
-    "tickRainBlockingRange": 16
-  },
-  "mobile": {
-    "multiDrawWorkaround": true
+    "particleLimit": 2400
   }
 }

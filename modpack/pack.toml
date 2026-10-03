@@ -1,14 +1,19 @@
-name = "Funautic"
+name = "Funautic Packwiz"
 author = "Kucing"
-version = "1.0.0"
+version = "1.1.0"
+description = "Requested Packwiz modpack for client and server"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e307be9c4b03cf173bca2803f419df68c2be33c18d75bdf1c9b7feafce3f624e"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.251"
+neoforge = "21.1.252"
 unsup = "1.2.7"
+
+[options]
+acceptable-loaders = ["fabric"]
+datapack-folder = "datapacks"
+no-internal-hashes = true
