@@ -4,7 +4,7 @@ To import modpack, use link bellow and paste at import section. You can download
 
 ## Deployment Modpack
 
-| Packs    | Link                                                  | Pack Typer |
+| Packs    | Link                                                  | Pack Typer |                                                                   |
 | :------- | :---------------------------------------------------- | :--------- | ----------------------------------------------------------------- |
 | `1.21.1` | `https://apuru-katze.github.io/Funautic/funautic.zip` | MultiMC    | `[download](https://apuru-katze.github.io/Funautic/funautic.zip)` |
 
