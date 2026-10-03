@@ -61,8 +61,16 @@ jobs:
             exit 1
           fi
 
+          # Create a MMC pack of the modpack
           if [ -d "main/mmcpack" ]; then
             (cd main/mmcpack && zip -q -r ../../out/funautic.zip .)
+          else
+            exit 1
+          fi
+
+          # Create a MRpack of the modpack
+          if [ -d "main/mrpack" ]; then
+            (cd main/mrpack && zip -q -r ../../out/funautic.mrpack .)
           else
             exit 1
           fi

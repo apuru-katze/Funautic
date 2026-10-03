@@ -1,0 +1,12 @@
+{
+  "game": "minecraft",
+  "formatVersion": 1,
+  "versionId": "1.1.0",
+  "name": "Funautic",
+  "summary": "refactor modpack for easy to read, contribute, and manage",
+  "files": [],
+  "dependencies": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.252"
+  }
+}
