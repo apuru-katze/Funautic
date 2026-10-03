@@ -53,10 +53,10 @@ jobs:
           mkdir -p out
           echo "<h1>Modpack Repository</h1><p>Status: 200 OK</p>" > out/index.html
 
-          mkdir -p out/main/modpack
+          mkdir -p out/modpack
 
           if [ -d "main/modpack" ]; then
-            cp -r main/modpack/* out/main/modpack/
+            cp -r main/modpack/* out/modpack/
           else
             exit 1
           fi
