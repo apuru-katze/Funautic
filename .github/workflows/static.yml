@@ -29,17 +29,41 @@ jobs:
           ref: main
           path: main
 
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+
+      - name: Refresh Packwiz Hashes
+        run: |
+          if [ -d "main/modpack" ]; then
+            go install github.com/packwiz/packwiz@latest
+            
+            cd main/modpack
+
+            sed -i '/no-internal-hashes/d' pack.toml
+            packwiz refresh
+
+          else
+            exit 1
+          fi
+
       - name: Prepare output
         run: |
           mkdir -p out
           echo "<h1>Modpack Repository</h1><p>Status: 200 OK</p>" > out/index.html
 
-          cp -r main/* out/ || true
+          mkdir -p out/main/modpack
+
+          if [ -d "main/modpack" ]; then
+            cp -r main/modpack/* out/main/modpack/
+          else
+            exit 1
+          fi
 
           if [ -d "main/mmcpack" ]; then
             (cd main/mmcpack && zip -q -r ../../out/funautic.zip .)
           else
-            echo "Canceled due error script"
             exit 1
           fi
 
