@@ -6,7 +6,7 @@ If you discover a security vulnerability in this project, please **do not** open
 
 Instead, report it privately via Discord.
 
-**Discord Username:** @lutfilahdzaky
+**Discord Username:** @Qucing
 
 Please include the following information if possible:
 

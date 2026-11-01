@@ -2,7 +2,7 @@ name: Balance Feedback
 description: Provide feedback on game balance, progression, recipes, or difficulty.
 title: "[Balance]: "
 labels: balance
-assignees: lutfilahdzaky
+assignees: Player
 type: feature
 
 body:

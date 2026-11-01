@@ -32,7 +32,3 @@ Choose your preferred launcher below for step-by-step instructions:
 
 Inside the JVM arguments provided above, there is a `-javaagent:unsup.jar` command.
 To prevent your game from crashing upon startup, ensure that the `unsup.jar` file is located in the main (root) folder of your modpack's Instance. (If this file is already included in the modpack's `overrides` folder, it will be installed automatically). If the game fails to start, please check your installation folder to make sure the `unsup.jar` file is present.
-
----
-
-_Made by Gemini AI_

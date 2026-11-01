@@ -2,7 +2,7 @@ name: Content Suggestion
 description: Suggest content to add, remove, or replace in the modpack.
 title: "[Content]: "
 labels: content
-assignees: lutfilahdzaky
+assignees: Player
 type: feature
 
 body:
