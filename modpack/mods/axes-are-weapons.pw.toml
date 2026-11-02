@@ -1,6 +1,6 @@
 name = "Axes Are Weapons"
 filename = "AxesAreWeapons-1.10.2-neoforge-1.21.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

@@ -22,6 +22,10 @@ file = "mods/accessories.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/aero-player-tilt.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/aero_cam_sync.pw.toml"
 metafile = true
 
@@ -146,6 +150,14 @@ file = "mods/brick-and-mortar.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/butchers-delight-foods-neoforge-port-unofficial.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/butchers-delight-neoforge-port-unofficial.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/butchery.pw.toml"
 metafile = true
 
@@ -207,6 +219,10 @@ metafile = true
 
 [[files]]
 file = "mods/colorwheel.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
 metafile = true
 
 [[files]]
@@ -298,6 +314,10 @@ file = "mods/create-cobblestone.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/create-collision-crashfix.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 metafile = true
 
@@ -322,6 +342,10 @@ file = "mods/create-dragons-plus.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/create-easy-stock-ticker.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create-factory.pw.toml"
 metafile = true
 
@@ -339,6 +363,10 @@ metafile = true
 
 [[files]]
 file = "mods/create-nowheel.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-offroad-narrow-roads.pw.toml"
 metafile = true
 
 [[files]]
@@ -518,6 +546,10 @@ file = "mods/emoji-type.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/emotecraft.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/enchanted-fishing-line.pw.toml"
 metafile = true
 
@@ -535,6 +567,10 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/escalated.pw.toml"
 metafile = true
 
 [[files]]
@@ -623,6 +659,10 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/gensokyo-delight-youkais-feasts.pw.toml"
 metafile = true
 
 [[files]]
@@ -922,6 +962,10 @@ file = "mods/ok-zoomer.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/online-emotes.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 metafile = true
 
@@ -1191,6 +1235,10 @@ metafile = true
 
 [[files]]
 file = "mods/tlib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tobacconist.pw.toml"
 metafile = true
 
 [[files]]

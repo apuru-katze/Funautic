@@ -1,13 +1,13 @@
 name = "Reconnectible Chains"
-filename = "connectiblechains-neoforge-1.21.1-2.3.1.jar"
+filename = "connectiblechains-2.4.4+1.21.1-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a11cbfef0a52d631ab529d9e5c11fdc3798f89df"
+hash = "1a47d26e63bceb28b488058a7d80738212d83d8c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8674630
+file-id = 9020464
 project-id = 1451848

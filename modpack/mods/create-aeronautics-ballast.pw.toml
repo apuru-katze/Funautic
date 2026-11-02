@@ -1,13 +1,13 @@
 name = "Create: Ballast"
-filename = "ballastmod-0.1.0.jar"
+filename = "ballastmod-0.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1c3ff5cf24ed26aa655f1ffc4a91763ee89504bf"
+hash = "dc7a83667104c1307e40de01468f0deb6702b400"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8030795
+file-id = 8870309
 project-id = 1532013

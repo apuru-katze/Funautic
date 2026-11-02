@@ -1,13 +1,13 @@
 name = "Contraption Lights (Bi-directional Dynamic Lights)"
-filename = "contraption-lights-neoforge-1.21.1-1.4.0.jar"
+filename = "contraption-lights-neoforge-1.21.1-1.5.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/gUdYw8o3/versions/bD29jdc3/contraption-lights-neoforge-1.21.1-1.4.0.jar"
+url = "https://cdn.modrinth.com/data/gUdYw8o3/versions/Jcn2RlzM/contraption-lights-neoforge-1.21.1-1.5.5.jar"
 hash-format = "sha512"
-hash = "65dda4d838185ab7a2206a6a870b6932dcce1b4b00b8b4c4bada28dafa201a6cfc2929c4e3f7be04cfb03c8e2617e978b3b7f30ac647c60b98701eca2b103ff5"
+hash = "9bb8b237ae704d48d45d45904106832d175aa7b9c9534b6ae54b994936aceb91545310cb1cb051f7d2b30bbb3f259e7116a98d69d6631c2155a83ffc8a6320fa"
 
 [update]
 [update.modrinth]
 mod-id = "gUdYw8o3"
-version = "bD29jdc3"
+version = "Jcn2RlzM"

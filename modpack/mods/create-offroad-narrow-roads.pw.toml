@@ -1,0 +1,13 @@
+name = "Create Offroad: Narrow Roads"
+filename = "offroadstepup-0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a468ae166a6fa3ce2571102dc39bcd181110468f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9103546
+project-id = 1727227

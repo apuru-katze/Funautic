@@ -1,6 +1,6 @@
 name = "BiomeSpy"
 filename = "biomespy-neoforge-1.21.1-1.3.3.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"
