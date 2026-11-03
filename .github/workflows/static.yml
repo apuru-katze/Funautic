@@ -1,15 +1,17 @@
-name: Deploy main
+name: Deploy production and development
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
+      - dev/november_week2
 
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+env:
+  PRODUCTION_REF: main
+  DEVELOPMENT_REF: dev/november_week2
+  SITE_BASE_URL: https://apuru-katze.github.io/Funautic
 
 concurrency:
   group: "pages"
@@ -17,63 +19,142 @@ concurrency:
 
 jobs:
   deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout main branch
+      - name: Checkout production branch
         uses: actions/checkout@v7
-        continue-on-error: true
         with:
-          ref: main
-          path: main
+          ref: ${{ env.PRODUCTION_REF }}
+          path: source/production
+
+      - name: Checkout development branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ env.DEVELOPMENT_REF }}
+          path: source/development
 
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
-          go-version: "stable"
+          go-version: "1.27.3"
 
-      - name: Refresh Packwiz Hashes
+      - name: Install Packwiz
         run: |
-          if [ -d "main/modpack" ]; then
-            go install github.com/packwiz/packwiz@latest
-            
-            cd main/modpack
+          go install github.com/packwiz/packwiz@latest
 
-            sed -i '/no-internal-hashes/d' pack.toml
-            packwiz refresh
-
-          else
-            exit 1
-          fi
-
-      - name: Prepare output
+      - name: Refresh Packwiz hashes
+        shell: bash
         run: |
+          set -euo pipefail
+
+          for channel in production development; do
+            modpack_dir="source/${channel}/modpack"
+            test -f "${modpack_dir}/pack.toml"
+            (
+              cd "${modpack_dir}"
+              packwiz refresh --build
+            )
+          done
+
+      - name: Prepare production and development output
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          rm -rf out
           mkdir -p out
-          echo "<h1>Modpack Repository</h1><p>Status: 200 OK</p>" > out/index.html
 
-          mkdir -p out/modpack
+          build_channel() {
+            local channel="$1"
+            local source_dir="source/${channel}"
+            local target_dir="out/${channel}"
+            local stage_dir="${RUNNER_TEMP}/funautic-${channel}"
+            local packwiz_url="${SITE_BASE_URL}/${channel}/modpack/pack.toml"
 
-          if [ -d "main/modpack" ]; then
-            cp -r main/modpack/* out/modpack/
-          else
-            exit 1
-          fi
+            test -d "${source_dir}/modpack"
+            test -d "${source_dir}/mmcpack"
+            test -d "${source_dir}/mrpack"
 
-          # Create a MMC pack of the modpack
-          if [ -d "main/mmcpack" ]; then
-            (cd main/mmcpack && zip -q -r ../../out/funautic.zip .)
-          else
-            exit 1
-          fi
+            mkdir -p "${target_dir}/modpack" "${stage_dir}"
+            cp -a "${source_dir}/modpack/." "${target_dir}/modpack/"
+            cp -a "${source_dir}/mmcpack" "${stage_dir}/mmcpack"
+            cp -a "${source_dir}/mrpack" "${stage_dir}/mrpack"
 
-          # Create a MRpack of the modpack
-          if [ -d "main/mrpack" ]; then
-            (cd main/mrpack && zip -q -r ../../out/funautic.mrpack .)
-          else
-            exit 1
-          fi
+            # Point each client package at its own fixed Packwiz channel.
+            sed -i "s#^source=.*#source=${packwiz_url}#" \
+              "${stage_dir}/mmcpack/minecraft/unsup.ini" \
+              "${stage_dir}/mrpack/overrides/unsup.ini"
+
+            (
+              cd "${stage_dir}/mmcpack"
+              zip -q -r "${GITHUB_WORKSPACE}/${target_dir}/funautic.zip" .
+            )
+
+            (
+              cd "${stage_dir}/mrpack"
+              zip -q -r "${GITHUB_WORKSPACE}/${target_dir}/funautic.mrpack" .
+            )
+
+            cat > "${target_dir}/index.html" <<EOF
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <title>Funautic ${channel} modpack</title>
+          </head>
+          <body>
+            <h1>Funautic ${channel} modpack</h1>
+            <ul>
+              <li><a href="funautic.zip">Download MultiMC pack</a></li>
+              <li><a href="funautic.mrpack">Download Modrinth pack</a></li>
+              <li><a href="modpack/pack.toml">Packwiz manifest</a></li>
+            </ul>
+          </body>
+          </html>
+          EOF
+          }
+
+          build_channel production
+          build_channel development
+
+          cat > out/index.html <<'EOF'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <title>Funautic Modpack</title>
+          </head>
+          <body>
+            <h1>Funautic Modpack</h1>
+            <ul>
+              <li><a href="production/">Production</a></li>
+              <li><a href="development/">Development</a></li>
+            </ul>
+          </body>
+          </html>
+          EOF
+
+      - name: Validate output
+        run: |
+          set -euo pipefail
+
+          for channel in production development; do
+            test -s "out/${channel}/funautic.zip"
+            test -s "out/${channel}/funautic.mrpack"
+            test -s "out/${channel}/modpack/pack.toml"
+            test -s "out/${channel}/modpack/index.toml"
+            unzip -t "out/${channel}/funautic.zip"
+            unzip -t "out/${channel}/funautic.mrpack"
+          done
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
@@ -81,7 +162,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: "out"
+          path: out
 
       - name: Deploy to GitHub Pages
         id: deployment
