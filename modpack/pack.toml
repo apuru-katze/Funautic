@@ -14,6 +14,5 @@ neoforge = "21.1.252"
 unsup = "1.2.7"
 
 [options]
-acceptable-loaders = ["fabric"]
 datapack-folder = "datapacks"
 no-internal-hashes = true
