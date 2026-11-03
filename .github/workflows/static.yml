@@ -2,7 +2,7 @@ name: Deploy packwiz pack to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["november-week2"]
 
   workflow_dispatch:
 
@@ -22,12 +22,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main branch
+      - name: Checkout november-week2 branch
         uses: actions/checkout@v7
         continue-on-error: true
         with:
-          ref: main
-          path: main
+          ref: november-week2
+          path: november-week2
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -36,10 +36,10 @@ jobs:
 
       - name: Refresh Packwiz Hashes
         run: |
-          if [ -d "main/modpack" ]; then
+          if [ -d "november-week2/modpack" ]; then
             go install github.com/packwiz/packwiz@latest
             
-            cd main/modpack
+            cd november-week2/modpack
 
             sed -i '/no-internal-hashes/d' pack.toml
             packwiz refresh
@@ -55,22 +55,22 @@ jobs:
 
           mkdir -p out/modpack
 
-          if [ -d "main/modpack" ]; then
-            cp -r main/modpack/* out/modpack/
+          if [ -d "november-week2/modpack" ]; then
+            cp -r november-week2/modpack/* out/modpack/
           else
             exit 1
           fi
 
           # Create a MMC pack of the modpack
-          if [ -d "main/mmcpack" ]; then
-            (cd main/mmcpack && zip -q -r ../../out/funautic.zip .)
+          if [ -d "november-week2/mmcpack" ]; then
+            (cd november-week2/mmcpack && zip -q -r ../../out/funautic.zip .)
           else
             exit 1
           fi
 
           # Create a MRpack of the modpack
-          if [ -d "main/mrpack" ]; then
-            (cd main/mrpack && zip -q -r ../../out/funautic.mrpack .)
+          if [ -d "november-week2/mrpack" ]; then
+            (cd november-week2/mrpack && zip -q -r ../../out/funautic.mrpack .)
           else
             exit 1
           fi
