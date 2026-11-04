@@ -1,0 +1,8 @@
+name = "config.json (client)"
+filename = "config.json"
+side = "client"
+
+[download]
+url = "https://apuru-katze.github.io/Funautic/modpack/config-client/particlerain/config.json"
+hash-format = "sha512"
+hash = "ef076c027f027a083d7daad72bb437fbb6a5c9b892269937f18fca65004589b2b10b9ea43e652809a48616681b6b0f4e700abbfcb48db4ad6683d52c9ffce93e"

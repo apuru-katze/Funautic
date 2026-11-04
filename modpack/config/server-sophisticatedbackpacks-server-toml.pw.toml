@@ -1,0 +1,8 @@
+name = "sophisticatedbackpacks-server.toml (server)"
+filename = "sophisticatedbackpacks-server.toml"
+side = "server"
+
+[download]
+url = "https://apuru-katze.github.io/Funautic/modpack/config-server/sophisticatedbackpacks-server.toml"
+hash-format = "sha512"
+hash = "a65569583d614635870ad12f1763f6ecf233c4ab189591b03f6d79c95c89c0f79c6331b8178947086df11520b548f05abe126604bfdcbc5a1dd2ef16e29e2e45"

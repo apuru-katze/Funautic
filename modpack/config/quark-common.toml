@@ -1,0 +1,29 @@
+[automation]
+	Chute = false
+
+[management]
+	"Automatic Tool Restock" = false
+	"Hotbar Changer" = false
+
+[tools]
+	Pickarang = false
+
+[tweaks]
+	"Armed Armor Stands" = false
+	Emotes = false
+	"Grab Chickens" = false
+	"Lock Rotation" = false
+
+[mobs]
+	Foxhound = false
+	Stonelings = false
+	Wraith = false
+
+[client]
+	"Greener Grass" = false
+	"Improved Tooltips" = false
+	"Usage Ticker" = false
+	"Variant Animal Textures" = false
+
+	[client.improved_tooltips]
+		"Food Tooltips" = false

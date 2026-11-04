@@ -1,0 +1,7 @@
+[Blocks]
+	totalFermentationTime = 66000
+
+	[Items.Wine]
+		daysPerYear = 1
+		yearsPerEffectLevel = 20
+		maxDuration = 54000
