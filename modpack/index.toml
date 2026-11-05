@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "client-options.txt.pw.toml"
+metafile = true
+
+[[files]]
 file = "config/asyncparticles/client-asyncparticles-json.pw.toml"
 metafile = true
 
@@ -9,7 +13,45 @@ file = "config/jade/client-plugins-json.pw.toml"
 metafile = true
 
 [[files]]
+file = "config/packetfixer.properties"
+
+[[files]]
 file = "config/particlerain/client-config-json.pw.toml"
+metafile = true
+
+[[files]]
+file = "config/quark-common.toml"
+
+[[files]]
+file = "config/server-drivebywire-common-toml.pw.toml"
+metafile = true
+
+[[files]]
+file = "config/server-railways-server-toml.pw.toml"
+metafile = true
+
+[[files]]
+file = "config/server-sable-server-toml.pw.toml"
+metafile = true
+
+[[files]]
+file = "config/server-sophisticatedbackpacks-server-toml.pw.toml"
+metafile = true
+
+[[files]]
+file = "config/server-sophisticatedcore-common-toml.pw.toml"
+metafile = true
+
+[[files]]
+file = "config/server-tectonic-json.pw.toml"
+metafile = true
+
+[[files]]
+file = "config/server-terralith-json.pw.toml"
+metafile = true
+
+[[files]]
+file = "config/server-vinery-toml.pw.toml"
 metafile = true
 
 [[files]]
@@ -201,6 +243,10 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cool-rain-reforged.pw.toml"
 metafile = true
 
 [[files]]
@@ -565,6 +611,10 @@ metafile = true
 
 [[files]]
 file = "mods/furniture-mods-create-sable-aeronautics.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fusion-connected-textures.pw.toml"
 metafile = true
 
 [[files]]
@@ -1188,7 +1238,7 @@ file = "mods/zfastnoise.pw.toml"
 metafile = true
 
 [[files]]
-file = "options.txt"
+file = "options-client/options.txt"
 
 [[files]]
 file = "resourcepacks/better-centered-vanilla-crosshair.pw.toml"
@@ -1196,6 +1246,14 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-moves.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/glowing-emissive-ores-fusion.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/glowing-emissive-ores.pw.toml"
 metafile = true
 
 [[files]]
