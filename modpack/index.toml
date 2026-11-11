@@ -985,10 +985,6 @@ file = "mods/polymorph.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/polytone.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/potion-stacks.pw.toml"
 metafile = true
 
