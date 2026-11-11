@@ -137,6 +137,10 @@ file = "mods/balm.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/bandwidthoptimizer.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/barbeques-delight-forge.pw.toml"
 metafile = true
 
@@ -182,6 +186,10 @@ metafile = true
 
 [[files]]
 file = "mods/camerapture.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
 metafile = true
 
 [[files]]
@@ -273,6 +281,10 @@ file = "mods/create-aeronautics-ballast.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-compact-gearshift.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-encased-fluid-pipes.pw.toml"
 metafile = true
 
@@ -345,6 +357,10 @@ file = "mods/create-framed.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/create-icecream-fps.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
 metafile = true
 
@@ -370,6 +386,14 @@ metafile = true
 
 [[files]]
 file = "mods/create-prismatic-shine.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-railways-navigator.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-redstone-link-gui.pw.toml"
 metafile = true
 
 [[files]]
@@ -454,6 +478,10 @@ metafile = true
 
 [[files]]
 file = "mods/distracting-trims.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dragonlib.pw.toml"
 metafile = true
 
 [[files]]
@@ -898,6 +926,10 @@ metafile = true
 
 [[files]]
 file = "mods/observable.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/offgrid.pw.toml"
 metafile = true
 
 [[files]]

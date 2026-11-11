@@ -1,0 +1,13 @@
+name = "Create IceCream FPS"
+filename = "createicecream-neoforge-1.21.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a07548394b1d9245d46701fb20737dbb1b3e1ca5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9242372
+project-id = 1703619
