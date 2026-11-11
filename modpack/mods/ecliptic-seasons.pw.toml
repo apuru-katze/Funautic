@@ -3,11 +3,11 @@ filename = "EclipticSeasons-1.21.1-neoforge-0.15.5.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ofdM7yJE/versions/ReqQpW6c/EclipticSeasons-1.21.1-neoforge-0.15.5.1.jar"
-hash-format = "sha512"
-hash = "b9773b6c3152babcf46735f1fc7ceeb4efd4adfc2c15df348a3da57322d317765be4c44bdccb5bbb7430665496f3af87162a1e704d4eadbf61f580091aea0f30"
+hash-format = "sha1"
+hash = "e8617446b332aff51b838478b654c42f7921a9cb"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "ofdM7yJE"
-version = "ReqQpW6c"
+[update.curseforge]
+file-id = 9407381
+project-id = 1118306

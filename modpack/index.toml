@@ -9,6 +9,9 @@ file = "config/asyncparticles/client-asyncparticles-json.pw.toml"
 metafile = true
 
 [[files]]
+file = "config/eclipticseasons-common.toml"
+
+[[files]]
 file = "config/jade/client-plugins-json.pw.toml"
 metafile = true
 
@@ -1191,18 +1194,6 @@ metafile = true
 
 [[files]]
 file = "mods/wakes-reforged.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/waterframes.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/watermedia-yt-plugin.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/watermedia.pw.toml"
 metafile = true
 
 [[files]]
