@@ -1,0 +1,100 @@
+Funautic changelog vs packwiz audit
+
+Sources:
+- Changelog: C:\Users\Desktop\funautic_setup_to_development_changelog.txt
+- Packwiz mods: C:\Users\Desktop\Documents\GitHub\Funautic\modpack\mods
+- Packwiz index: C:\Users\Desktop\Documents\GitHub\Funautic\modpack\index.toml
+
+- Packwiz mod metafiles: 300
+- Index entries total: 323
+- Changelog lines: 189
+
+== Confirmed / high-confidence differences ==
+
+1. Version mismatches:
+- CreativeCore: changelog target 2.13.53; repository has CreativeCore_NEOFORGE_v2.13.54_mc1.21.1.jar
+- Exposure: changelog target 1.9.20; repository has exposure-neoforge-1.21.1-1.9.21.jar
+- Reconnectible Chains: changelog target 2.4.4+1.21.1; repository has connectiblechains-2.5.0-1.21.1-neoforge.jar
+- Rhino: changelog target 2101.2.8-build.91; repository has rhino-2101.2.7-build.85.jar
+
+2. Deleted entries still represented in repository:
+- Client Tweaks: client-tweaks.pw.toml
+- Collective: collective.pw.toml
+- Iris: irisshaders.pw.toml
+- Polytone: polytone.pw.toml
+- Sable Physics Compat: sable-physics-compat.pw.toml
+
+3. Changelog entries with missing version (`None`):
+- Count: 62
+- added Aeronautics Camera Sync None
+- added Aeronautics Player Tilt None
+- added AutoReconnect None
+- added BandwidthOptimizer None
+- added Carry On None
+- added Chat Heads None
+- added Compact Gearshift None
+- added Contraption Lights None
+- added Cool Rain None
+- added CraftPresence None
+- added Create Collision Fix None
+- added Create Railways Navigator None
+- added Create: EMI Schematics None
+- added Create: Ez Stock Ticker None
+- added Create: Redstone Link GUI None
+- added Create:Lazy Tick None
+- added Cubes Without Borders None
+- added CullLeaves None
+- added DragonLib None
+- added Eating Animation None
+- added Ecliptic Seasons None
+- added Ecliptic Seasons : Bundles None
+- added Ecliptic Seasons: MultiMod Patch None
+- added EMI Enchanting None
+- added emi-letsdo-compat None
+- added EMIffect None
+- added Enhanced Diagrams None
+- added Fast IP Ping None
+- added FastEvent None
+- added Fastquit None
+- added Fragmentum None
+- added fuck Sable None
+- added Fusion None
+- added Gnetum None
+- added Gpu memory leak fix None
+- added Highlight None
+- added Item Descriptions None
+- added Jake None
+- added JamLib None
+- added Jasione None
+- added libIPN None
+- added Lightspeed None
+- added mclo.gs None
+- added MidnightLib None
+- added Mod Menu (NeoForge Edition) None
+- added Model Gap Fix None
+- added MRU None
+- added No Chat Reports None
+- added Nowheel None
+- added Offgrid None
+- added Ok Zoomer None
+- added Optimized Block Entities None
+- added Packed Packs None
+- added PacketFixer None
+- added Particle Core None
+- added Particle Rain None
+- added Random Optimization None
+- added Shut Up GL Error None
+- added SnAssets None
+- added Tips None
+- added TLib None
+- added UniLib None
+
+== index.toml / mod metafile consistency ==
+- Mod metafiles missing from index.toml: 0
+- Index mod entries without a matching metafile: 0
+
+== Interpretation ==
+- The packwiz index itself is structurally consistent: every current `modpack/mods/*.pw.toml` file is listed in index.toml and no index mod path is orphaned.
+- The changelog is not fully reliable for exact reconciliation because many `added` lines contain literal `None`, and several names are display-name aliases rather than stable mod IDs.
+- CreativeCore, Exposure, and Reconnectible Chains are newer in the repository than the changelog target; Rhino is older than the changelog target.
+- A deleted entry that remains may be intentional replacement/version migration, but it must be resolved before treating the changelog as an exact deployment manifest.
