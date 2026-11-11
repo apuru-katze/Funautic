@@ -1045,6 +1045,10 @@ file = "mods/rhino.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/roxy.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/sable-cleanup.pw.toml"
 metafile = true
 
@@ -1214,6 +1218,10 @@ metafile = true
 
 [[files]]
 file = "mods/visuality-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/voxy.pw.toml"
 metafile = true
 
 [[files]]

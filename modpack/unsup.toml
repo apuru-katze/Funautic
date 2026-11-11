@@ -28,16 +28,26 @@ description = "Shader dan optimasinya"
 
 # Button Choice
 [flavor_groups.dh]
-name = "Distant Horizon"
+name = "Distant Visual"
 side = "client"
-choices = ["dh_off", "dh_on"]
 description = "Menambahkan Chunk View Lebih jauh"
+[[flavor_groups.dh.choices]]
+id = "dh_off"
+name = "off"
+description = "Tanpa tambahan apapun"
+[[flavor_groups.dh.choices]]
+id = "dh_on"
+name = "Distant Horizon"
+description = "Mod Distant Horizon, menambahkan jarak pandang lebih jauh"
+[[flavor_groups.dh.choices]]
+id = "voxy_on"
+name = "voxy"
+description = "Mod Voxy+Roxy, port neoforge dari Voxy"
 
-[flavor_groups.soundtweak]
-name = "Immersive Sounds"
-side = "client"
-choices = ["soundtweak_off", "soundtweak_on"]
-description = "Immersive Sound seperti kicauan burung maupun item di inventory"
+[[flavor_groups.shader.choices]]
+id = "shader"
+name = "Iris Shader"
+description = "Shader dan optimasinya"
 
 [flavor_groups.punchy]
 name = "Punchy"
@@ -53,10 +63,10 @@ choices = ["admintools_off", "admintools_on"]
 description = "Tools khusus Admin"
 
 [flavor_groups.cltweak]
-name = "Setup Client Tweaks"
+name = "Additional Client Mod"
 side = "client"
 choices = ["cltweak_off", "cltweak_on"]
-description = "Pair dengan Punchy. Tweak Inventory, HUD Inventory, dan tweak kecil seperti off hand torch only tools"
+description = "HUD Inventory dan Management lainnya"
 
 [flavor_groups.tooltips]
 name = "Setup Tooltips"
@@ -114,27 +124,6 @@ flavors = "funautic_fancy"
 [metafile.wakes-reforged]
 flavors = "funautic_fancy"
 
-[metafile.aeronautics-wind-sound]
-flavors = "soundtweak_on"
-[metafile.ambientsounds]
-flavors = "soundtweak_on"
-[metafile.dripsounds]
-flavors = "soundtweak_on"
-[metafile.more-sounds]
-flavors = "soundtweak_on"
-[metafile.music-notification]
-flavors = "soundtweak_on"
-[metafile.pf-neoforge]
-flavors = "soundtweak_on"
-[metafile.presence-footsteps-x-sable]
-flavors = "soundtweak_on"
-[metafile.sound-physics-aeronautics]
-flavors = "soundtweak_on"
-[metafile.sound-physics-remastered]
-flavors = "soundtweak_on"
-[metafile.sound]
-flavors = "soundtweak_on"
-
 [metafile.boat-item-view]
 flavors = "cltweak_on"
 [metafile.client-tweaks]
@@ -174,3 +163,8 @@ flavors = "punchy_on"
 
 [metafile.distanthorizons]
 flavors = "dh_on"
+
+[metafile.voxy]
+flavors = "voxy_on"
+[metafile.roxy]
+flavors = "voxy_on"
