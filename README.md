@@ -1,4 +1,4 @@
-# Funautic
+# Funautic Modpack
 
 To import modpack, use link bellow and paste at import section. You can download my modpack by clicking download bellow
 
@@ -9,11 +9,9 @@ To import modpack, use link bellow and paste at import section. You can download
 | `Prism Instalations`                                    | `https://apuru-katze.github.io/Funautic/funautic.zip`    | MultiMC   | [download](https://apuru-katze.github.io/Funautic/funautic.zip)    |
 | [Modrinth Instalations](docs/modrinth-installations.md) | `https://apuru-katze.github.io/Funautic/funautic.mrpack` | Mrpack    | [download](https://apuru-katze.github.io/Funautic/funautic.mrpack) |
 
-## Friend Modpack
+## License and Disclaimer
 
-Check this too
+licensed under MIT
+everyone can access, change, reproduce, monetize, and/or merge into other projects as describe by MIT license.
 
-| Packs                  | Link                                                | Author     |
-| :--------------------- | :-------------------------------------------------- | ---------- |
-| `SekaiModded Survival` | `https://github.com/lutfilahdz/sekai-modpack`       | LutfilahDz |
-| `Aero modpack`         | `https://github.com/lutfilahdz-lab/unnamed-modpack` | LutfilahDz |
+licenses limited to the repository not include the mods and tools I use to maintain this repository.

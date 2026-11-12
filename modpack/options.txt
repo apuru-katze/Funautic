@@ -1,3 +1,0 @@
-narrator:0
-guiScale:2
-soundCategory_master:0.5

@@ -1,0 +1,8 @@
+name = "plugins.json (client)"
+filename = "plugins.json"
+side = "client"
+
+[download]
+url = "https://apuru-katze.github.io/Funautic/modpack/config-client/jade/plugins.json"
+hash-format = "sha512"
+hash = "969c788b63d29a9b6ac7ec7308a8972161ef9110bd7c58eec019c4dbb02c031852e5f97521ed5677888ade6b3736f3925c941363cf6bdbd476df81bab1aceb3c"

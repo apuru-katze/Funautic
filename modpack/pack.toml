@@ -10,9 +10,11 @@ hash-format = "sha256"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.252"
+neoforge = "21.1.265"
 unsup = "1.2.7"
 
 [options]
+acceptable-game-versions = ["1.21.11"]
+acceptable-loaders = ["fabric"]
 datapack-folder = "datapacks"
 no-internal-hashes = true

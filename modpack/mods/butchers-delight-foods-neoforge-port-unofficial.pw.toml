@@ -1,0 +1,13 @@
+name = "Butcher's Delight Foods - NeoForge (unofficial)"
+filename = "butchersdelightfoods-1.21.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6b9dd29ff7275519148b53ebecc2a53cd7c1fb04"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8280201
+project-id = 1572099

@@ -1,0 +1,8 @@
+name = "sophisticatedcore-common.toml (server)"
+filename = "sophisticatedcore-common.toml"
+side = "server"
+
+[download]
+url = "https://apuru-katze.github.io/Funautic/modpack/config-server/sophisticatedcore-common.toml"
+hash-format = "sha512"
+hash = "4924db0891094d547052eb8ef4c13b9e94363819241fa8376e4b6bd1f98864a2decb587e85d35fa76a7882b79b2cfaefd2744398b25d889ec0de1d1a18677fef"

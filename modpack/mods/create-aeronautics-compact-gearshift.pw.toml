@@ -1,0 +1,13 @@
+name = "Create Aeronautics: AaA's Compact Gearshift"
+filename = "compact_gearshift-2.1.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JT1f6rr9/versions/iYQWBm1r/compact_gearshift-2.1.5.jar"
+hash-format = "sha512"
+hash = "19e989128f5b58f8c895bd65c5e2e29bdf7fc82515856bf73ed37b372d355a8927458fddaa471e9e39a778a21dce230f0fbeaaff575b770666e345b17cc1286f"
+
+[update]
+[update.modrinth]
+mod-id = "JT1f6rr9"
+version = "iYQWBm1r"

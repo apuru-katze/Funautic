@@ -1,0 +1,13 @@
+name = "Tobacconist"
+filename = "tobacconistmod-4.2.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a3d87c63701a7e20057958093dd7166e010eff86"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9365047
+project-id = 896915

@@ -1,0 +1,6 @@
+{
+  "configVersion": 5,
+  "perf": {
+    "maxParticleAmount": 650
+  }
+}

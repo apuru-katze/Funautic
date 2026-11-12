@@ -1,13 +1,13 @@
 name = "Random Optimization"
-filename = "randomoptimization-1.7.4-all.jar"
+filename = "randomoptimization-1.7.6-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Mjoo9rPv/versions/hNTChHCI/randomoptimization-1.7.4-all.jar"
+url = "https://cdn.modrinth.com/data/Mjoo9rPv/versions/yXlbLoFF/randomoptimization-1.7.6-1.21.1.jar"
 hash-format = "sha512"
-hash = "588fb17153cd8309bb2d791ea42833737de910d516d17e4ed6e423b2a4041a5d516234631707148df300c73d53d11f9e4850e638685cc76c648d20323aa517ae"
+hash = "27c1160d515cf7f0343ccd8ac68d5fb4a787defefd149b81194d5aa5e7c0a42010630e85a61b0a9463c3e9086227693619c2c0c91c8cb4838354022c1d14316c"
 
 [update]
 [update.modrinth]
 mod-id = "Mjoo9rPv"
-version = "hNTChHCI"
+version = "yXlbLoFF"

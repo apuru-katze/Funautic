@@ -1,12 +1,12 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "1.1.0",
+  "versionId": "1.2.0",
   "name": "Funautic",
-  "summary": "refactor modpack for easy to read, contribute, and manage",
+  "summary": "A modpack that combines fun and automation, offering a unique experience for players who enjoy both aspects of Minecraft.",
   "files": [],
   "dependencies": {
     "minecraft": "1.21.1",
-    "neoforge": "21.1.252"
+    "neoforge": "21.1.265"
   }
 }

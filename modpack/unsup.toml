@@ -28,54 +28,47 @@ description = "Shader dan optimasinya"
 
 # Button Choice
 [flavor_groups.dh]
-name = "Distant Horizon"
-side = "client"
-choices = ["dh_off", "dh_on"]
+name = "Distant Visual"
 description = "Menambahkan Chunk View Lebih jauh"
-[flavor_groups.camtweak]
-name = "Camera Tweaks"
 side = "client"
-choices = ["camtweak_off", "camtweak_on"]
-description = "Tweak View agar lebih Immersive saat bermain"
-[flavor_groups.cltweak]
-name = "Client Tweaks"
-side = "client"
-choices = ["cltweak_off", "cltweak_on"]
-description = "Pair dengan Punchy. Tweak Inventory, HUD Inventory, dan tweak kecil seperti off hand torch only tools"
-[flavor_groups.soundtweak]
-name = "Immersive Sounds"
-side = "client"
-choices = ["soundtweak_off", "soundtweak_on"]
-description = "Immersive Sound seperti kicauan burung maupun item di inventory"
-[flavor_groups.atmospherics]
-name = "Atmospherics"
-side = "client"
-choices = ["atmospherics_off", "atmospherics_on"]
-description = "Atmospheric, jangan pair sama DH jika View Distance kamu rendah"
-[flavor_groups.tooltips]
-name = "Tooltips"
-side = "client"
-choices = ["tooltips_off", "tooltips_on"]
-description = "Tooltips item, informasi yang cukup berguna jika sedang hover"
-[flavor_groups.motitweak]
-name = "Tweak Motion"
-side = "client"
-choices = ["motitweak_off", "motitweak_on"]
-description = "Motion Tweak untuk place block dan Propeler aeronautic"
-# [flavor_groups.emftweak]
-# name = "EMF Compability"
-# side = "client"
-# choices = ["emftweak_off", "emftweak_on"]
+[[flavor_groups.dh.choices]]
+id = "dh_off"
+name = "off"
+description = "Tanpa tambahan apapun"
+[[flavor_groups.dh.choices]]
+id = "dh_on"
+name = "Distant Horizon"
+description = "Mod Distant Horizon, menambahkan jarak pandang lebih jauh"
+[[flavor_groups.dh.choices]]
+id = "voxy_on"
+name = "voxy"
+description = "Mod Voxy+Roxy, port neoforge dari Voxy"
+
+
 [flavor_groups.punchy]
 name = "Punchy"
 side = "client"
 choices = ["punchy_off", "punchy_on"]
 description = "Punchy, animasi 1st person"
+
+## Kucing Additions
 [flavor_groups.admintools]
-name = "Admin Tools"
+name = "Setup Admin Tools"
 side = "client"
 choices = ["admintools_off", "admintools_on"]
 description = "Tools khusus Admin"
+
+[flavor_groups.cltweak]
+name = "Additional Client Mod"
+side = "client"
+choices = ["cltweak_off", "cltweak_on"]
+description = "HUD Inventory dan Management lainnya"
+
+[flavor_groups.tooltips]
+name = "Setup Tooltips"
+side = "client"
+choices = ["tooltips_off", "tooltips_on"]
+description = "Tooltips item, informasi yang cukup berguna jika sedang hover"
 
 # Modlist
 [metafile.3dskinlayers]
@@ -126,41 +119,8 @@ flavors = "funautic_fancy"
 flavors = "funautic_fancy"
 [metafile.wakes-reforged]
 flavors = "funautic_fancy"
-[metafile.create-aeronautics-vapor-trails]
-flavors = "funautic_fancy"
-
-[metafile.atmospherics]
-flavors = "atmospherics_on"
-
-[metafile.aeronautics-wind-sound]
-flavors = "soundtweak_on"
-[metafile.ambientsounds]
-flavors = "soundtweak_on"
-[metafile.dripsounds]
-flavors = "soundtweak_on"
-[metafile.more-sounds]
-flavors = "soundtweak_on"
-[metafile.music-notification]
-flavors = "soundtweak_on"
-[metafile.pf-neoforge]
-flavors = "soundtweak_on"
-[metafile.presence-footsteps-x-sable]
-flavors = "soundtweak_on"
-[metafile.sound-physics-aeronautics]
-flavors = "soundtweak_on"
-[metafile.sound-physics-remastered]
-flavors = "soundtweak_on"
-[metafile.sound]
-flavors = "soundtweak_on"
-
-[metafile.aero_cam_sync]
-flavors = "camtweak_on"
-[metafile.cameraoverhaul]
-flavors = "camtweak_on"
 
 [metafile.boat-item-view]
-flavors = "cltweak_on"
-[metafile.cleancut]
 flavors = "cltweak_on"
 [metafile.client-tweaks]
 flavors = "cltweak_on"
@@ -187,16 +147,6 @@ flavors = "shader"
 [metafile.irisshaders]
 flavors = "shader"
 
-[metafile.createsoftmotion]
-flavors = "motitweak_on"
-[metafile.a-good-place]
-flavors = "motitweak_on"
-
-# [metafile.emf-compat-core]
-# flavors = "emftweak_on"
-# [metafile.emf-compat-create]
-# flavors = "emftweak_on"
-
 [metafile.in-game-account-switcher]
 flavors = "admintools_on"
 [metafile.observable]
@@ -209,3 +159,8 @@ flavors = "punchy_on"
 
 [metafile.distanthorizons]
 flavors = "dh_on"
+
+[metafile.voxy]
+flavors = "voxy_on"
+[metafile.roxy]
+flavors = "voxy_on"

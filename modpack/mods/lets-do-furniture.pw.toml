@@ -1,13 +1,13 @@
 name = "[Let's Do] Furniture"
-filename = "letsdo-furniture-neoforge-1.1.4.jar"
+filename = "letsdo-furniture-neoforge-1.1.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fabc5aa1b2b354dae2338254a2fd0ff747944253"
+hash = "c81278d7abd8adb4abc46b612a0d27569f41ee24"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7751818
+file-id = 9203784
 project-id = 1062363

@@ -1,0 +1,8 @@
+name = "sable-server.toml (server)"
+filename = "sable-server.toml"
+side = "server"
+
+[download]
+url = "https://apuru-katze.github.io/Funautic/modpack/config-server/sable-server.toml"
+hash-format = "sha512"
+hash = "c16189083d58253158c03f7d7484291c6d73875517d81be8fbc640c03804d5ad55f325e55778b733faee7dab4f601d29731d18839a328caabaa6c2b23c6a335e"
