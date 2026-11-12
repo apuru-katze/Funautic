@@ -1,0 +1,13 @@
+name = "Reliable EMI (REMI)"
+filename = "emixx-neoforge-2.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "60339a86dd57813b2a3b6d37150d8f7f00d24c9e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8207197
+project-id = 1411826

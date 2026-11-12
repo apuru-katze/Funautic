@@ -3,11 +3,11 @@ filename = "exposure-neoforge-1.21.1-1.9.20.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hB899VmG/versions/U13Hoofy/exposure-neoforge-1.21.1-1.9.20.jar"
-hash-format = "sha512"
-hash = "e8dc3835dd1bba85c8430bf0819c1e394a739b9958723c96733d373b147a60a8f964bde027435b2a6514a2173fa7300a0f02ce1c5a682e11ee8b12639a2f0f21"
+hash-format = "sha1"
+hash = "7026d88301ad2ce137a9ef2861e6a76fd97e86ec"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "hB899VmG"
-version = "U13Hoofy"
+[update.curseforge]
+file-id = 9526450
+project-id = 871755

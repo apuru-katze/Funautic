@@ -1,6 +1,6 @@
 name = "Dynamic FPS"
 filename = "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

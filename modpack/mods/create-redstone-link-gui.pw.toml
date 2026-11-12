@@ -3,11 +3,11 @@ filename = "createredstonelinkgui-1.21.1-1.9.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/GhtD1QcW/versions/s8Yw7I6l/createredstonelinkgui-1.21.1-1.9.2.jar"
-hash-format = "sha512"
-hash = "aa5271c30c343d1f03073283c79d144e5690fe0c68b206f24e29f4dd5299bd137870e4c95ec7878fccb32c76c8924cec5f38013cad7f833cef08013570cf3762"
+hash-format = "sha1"
+hash = "408f1af35409f8931171dc9c5ab724b762bf65c1"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "GhtD1QcW"
-version = "s8Yw7I6l"
+[update.curseforge]
+file-id = 8482307
+project-id = 1547849
