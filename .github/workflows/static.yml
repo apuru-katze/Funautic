@@ -4,13 +4,13 @@ on:
   push:
     branches:
       - main
-      - dev/november_week2
+      - fix/custom_payload
 
   workflow_dispatch:
 
 env:
   PRODUCTION_REF: main
-  DEVELOPMENT_REF: dev/november_week2
+  DEVELOPMENT_REF: fix/custom_payload
   SITE_BASE_URL: https://apuru-katze.github.io/Funautic
 
 concurrency:
