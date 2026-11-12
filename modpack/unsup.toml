@@ -29,8 +29,8 @@ description = "Shader dan optimasinya"
 # Button Choice
 [flavor_groups.dh]
 name = "Distant Visual"
-side = "client"
 description = "Menambahkan Chunk View Lebih jauh"
+side = "client"
 [[flavor_groups.dh.choices]]
 id = "dh_off"
 name = "off"
@@ -44,10 +44,6 @@ id = "voxy_on"
 name = "voxy"
 description = "Mod Voxy+Roxy, port neoforge dari Voxy"
 
-[[flavor_groups.shader.choices]]
-id = "shader"
-name = "Iris Shader"
-description = "Shader dan optimasinya"
 
 [flavor_groups.punchy]
 name = "Punchy"

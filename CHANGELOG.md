@@ -1,6 +1,4 @@
-# Changelog
-
-Perubahan working tree dibandingkan `HEAD` (534d30c).
+# Changelog 1.3.0
 
 ## Update
 
@@ -33,7 +31,7 @@ update Companion 🐕 (Neo/Forge) 6.2.2 => 6.3.0
 update Contraption Lights (Bi-directional Dynamic Lights) 1.21.1-1.4.0 => 1.21.1-1.5.5
 update CoroUtil 1.21.0-1.3.8 => 1.21.0-1.3.9
 update CraftPresence 1.21.1-neoforge => 1.21
-update Create  Deep Seas [BETA] 2.2.4 => 3.4.5
+update Create Deep Seas [BETA] 2.2.4 => 3.4.5
 update Create Aeronautics 1.21.1-1.3.1 => 1.21.1-1.3.2
 update Create Aeronautics: Transmission & Linkage 0.2.5 => 0.2.9
 update Create Cobblestone 1.21.1-144 => 1.21.1-160
