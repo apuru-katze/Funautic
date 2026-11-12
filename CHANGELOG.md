@@ -152,18 +152,20 @@ Xaero's World Map 1.21.1-1.44.2 => 1.21.1-1.47.0
 ## Added
 
 ```
-Aeronautics Player Tilt - => 0.3.0
-Butcher's Delight Foods - NeoForge (unofficial) - => 1.21.1-1.0.4
-Butcher’s Delight - NeoForge (unofficial) - => 1.21.1-1.0.1
-Comforts - => 1.21.1
-Create Collision Crashfix - => 1.0.0
-Create Offroad: Narrow Roads - => 0.5
-Create: Easy Stock Ticker - => 1.1.2
-Create: Escalated - => 1.21.1
-Emotecraft - => 21.1-2.4.12
-Gensokyo Delight ~ Youkais' Feasts - => 1.1.2
-Online Emotes - => 21.1-forge
-Tobacconist - => 1.21.1
+Aeronautics Player Tilt
+Butcher's Delight Foods
+Butcher’s Delight
+Comforts
+Create Collision Crashfix
+Create Offroad: Narrow Roads
+Create: Easy Stock Ticker
+Create: Escalated
+Create: lazy Tick
+Emotecraft
+Gensokyo Delight ~ Youkais' Feasts
+Online Emotes
+Simply light
+Tobacconist
 ```
 
 ## Delete
