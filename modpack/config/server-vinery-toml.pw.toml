@@ -3,6 +3,6 @@ filename = "vinery.toml"
 side = "server"
 
 [download]
-url = "https://apuru-katze.github.io/Funautic/modpack/config-server/vinery.toml"
+url = "https://apuru-katze.github.io/Funautic/production/modpack/config-server/vinery.toml"
 hash-format = "sha512"
 hash = "8384d7d39a22112bd98830863e615856504cc157ebb3ee472b934bb750016143b2d44382167362b8868f40dc1869c9064ffb692eb4f76a2af08fd217ca830ae4"

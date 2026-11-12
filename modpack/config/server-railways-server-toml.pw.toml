@@ -3,6 +3,6 @@ filename = "railways-server.toml"
 side = "server"
 
 [download]
-url = "https://apuru-katze.github.io/Funautic/modpack/config-server/railways-server.toml"
+url = "https://apuru-katze.github.io/Funautic/production/modpack/config-server/railways-server.toml"
 hash-format = "sha512"
 hash = "bfb410dbede99a9ec4aa5ae93dcc3af4a7c331356b2255cbbd6ab5f9ef3f7fc8a951814891720559b6f3faa831fb1b3e6a722ca06b5349ec16b62f1a255ca614"

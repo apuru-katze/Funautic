@@ -3,6 +3,6 @@ filename = "drivebywire-common.toml"
 side = "server"
 
 [download]
-url = "https://apuru-katze.github.io/Funautic/modpack/config-server/drivebywire-common.toml"
+url = "https://apuru-katze.github.io/Funautic/production/modpack/config-server/drivebywire-common.toml"
 hash-format = "sha512"
 hash = "924d27a7bf2269424a0f1b0c802c7a820718db65246fc8eb55c2bc845278397843f246a02e21c0d13d8be6679bcbc748187d2a93894db4e8a2d303cd5d3a285e"

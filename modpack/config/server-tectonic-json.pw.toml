@@ -3,6 +3,6 @@ filename = "tectonic.json"
 side = "server"
 
 [download]
-url = "https://apuru-katze.github.io/Funautic/modpack/config-server/tectonic.json"
+url = "https://apuru-katze.github.io/Funautic/production/modpack/config-server/tectonic.json"
 hash-format = "sha512"
 hash = "f78ced7dc81c9ab81ec4942a74036cb426fab6ce9dd048725dd63fbe9ee8f2bc575d045fd8a68ef59ceaaaa331143cfc13ec0c8e7b95803c27b35689a095bea7"

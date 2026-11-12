@@ -3,6 +3,6 @@ filename = "asyncparticles.json"
 side = "client"
 
 [download]
-url = "https://apuru-katze.github.io/Funautic/modpack/config-client/asyncparticles/asyncparticles.json"
+url = "https://apuru-katze.github.io/Funautic/production/modpack/config-client/asyncparticles/asyncparticles.json"
 hash-format = "sha512"
 hash = "0aa9b3c245922960d030fd70a6854c2424552a3fb800bdd2ebaf0e1b1dadabc61b1a0f3ac578ceb4361cccfe9f6310d13cc8bb1eaaa336abf1d9ca32b6758e63"

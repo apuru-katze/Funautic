@@ -1268,6 +1268,9 @@ metafile = true
 file = "options-client/options.txt"
 
 [[files]]
+file = "options.txt"
+
+[[files]]
 file = "resourcepacks/better-centered-vanilla-crosshair.pw.toml"
 metafile = true
 

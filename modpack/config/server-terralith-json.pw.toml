@@ -3,6 +3,6 @@ filename = "terralith.json"
 side = "server"
 
 [download]
-url = "https://apuru-katze.github.io/Funautic/modpack/config-server/terralith.json"
+url = "https://apuru-katze.github.io/Funautic/production/modpack/config-server/terralith.json"
 hash-format = "sha512"
 hash = "5fadb0534badb70e1dabf79c2c93fd2c3bd581147ce390871a48830ad788fa05d4c8fefb2a3d867b830a57dbf1d698422417499a2218c64ed25dd7687aeb087c"
