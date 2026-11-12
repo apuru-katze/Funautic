@@ -3,6 +3,6 @@ filename = "options.txt"
 side = "client"
 
 [download]
-url = "https://apuru-katze.github.io/Funautic/modpack/options.txt"
+url = "https://apuru-katze.github.io/Funautic/production/modpack/options-client/options.txt"
 hash-format = "sha512"
 hash = "c3e00d70dad20e8de858996196c17f64f056b6a1ba40e497e7718c2bda8754c9070a68bcaf5b091249176683235e0856aa53d58f2fe974c556a47781e65f0940"
