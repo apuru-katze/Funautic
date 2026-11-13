@@ -51,6 +51,13 @@ side = "client"
 choices = ["punchy_off", "punchy_on"]
 description = "Punchy, animasi 1st person"
 
+## Tooltips
+[flavor_groups.tooltips]
+name = "Other Client Mod"
+side = "client"
+choices = ["tooltips_off", "tooltips_on"]
+description = "Tooltips tambahan"
+
 ## Kucing Additions
 [flavor_groups.admintools]
 name = "Admin Tools"
