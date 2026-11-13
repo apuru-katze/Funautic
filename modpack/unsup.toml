@@ -5,11 +5,11 @@ description = "from the ashes became a muara"
 side = "both"
 [[flavor_groups.funautic.choices]]
 id = "funautic_base"
-name = "Base Version"
+name = "Basic"
 description = "Versi basic cuman mod yang penting aja, cocok buat yang mau main di server SMP"
 [[flavor_groups.funautic.choices]]
 id = "funautic_fancy"
-name = "Fancy Version"
+name = "Fancy"
 description = "Versi fancy dengan lebih banyak fitur dan visual yang menarik"
 
 # Shader Choices
@@ -19,11 +19,11 @@ description = "Only Shader dan optimasinya"
 side = "client"
 [[flavor_groups.shader.choices]]
 id = "noshader"
-name = "NO Shader"
+name = "No Shader"
 description = "Tanpa Shader"
 [[flavor_groups.shader.choices]]
 id = "shader"
-name = "Iris Shader"
+name = "With Shader"
 description = "Shader dan optimasinya"
 
 # Button Choice
@@ -46,29 +46,23 @@ description = "Mod Voxy+Roxy, port neoforge dari Voxy"
 
 
 [flavor_groups.punchy]
-name = "Punchy"
+name = "Punchy Animations"
 side = "client"
 choices = ["punchy_off", "punchy_on"]
 description = "Punchy, animasi 1st person"
 
 ## Kucing Additions
 [flavor_groups.admintools]
-name = "Setup Admin Tools"
+name = "Admin Tools"
 side = "client"
 choices = ["admintools_off", "admintools_on"]
 description = "Tools khusus Admin"
 
 [flavor_groups.cltweak]
-name = "Additional Client Mod"
+name = "Other Client Mod"
 side = "client"
 choices = ["cltweak_off", "cltweak_on"]
 description = "HUD Inventory dan Management lainnya"
-
-[flavor_groups.tooltips]
-name = "Setup Tooltips"
-side = "client"
-choices = ["tooltips_off", "tooltips_on"]
-description = "Tooltips item, informasi yang cukup berguna jika sedang hover"
 
 # Modlist
 [metafile.3dskinlayers]
@@ -142,8 +136,6 @@ flavors = "tooltips_on"
 flavors = "shader"
 [metafile.colorwheel]
 flavors = "shader"
-[metafile.createbetterfps]
-flavors = "shader"
 [metafile.irisshaders]
 flavors = "shader"
 
@@ -154,12 +146,13 @@ flavors = "admintools_on"
 [metafile.spark]
 flavors = "admintools_on"
 
+## Punchy
 [metafile.punchy-fpa]
 flavors = "punchy_on"
 
+## Voxy Distant Horizon
 [metafile.distanthorizons]
 flavors = "dh_on"
-
 [metafile.voxy]
 flavors = "voxy_on"
 [metafile.roxy]
