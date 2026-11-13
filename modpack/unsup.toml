@@ -64,7 +64,7 @@ side = "client"
 choices = ["cltweak_off", "cltweak_on"]
 description = "HUD Inventory dan Management lainnya"
 
-# Modlist
+## Fancy
 [metafile.3dskinlayers]
 flavors = "funautic_fancy"
 [metafile.better-clouds]
@@ -114,6 +114,7 @@ flavors = "funautic_fancy"
 [metafile.wakes-reforged]
 flavors = "funautic_fancy"
 
+## Client Tweaks
 [metafile.client-tweaks]
 flavors = "cltweak_on"
 [metafile.inventory-hud-forge]
@@ -121,6 +122,8 @@ flavors = "cltweak_on"
 [metafile.inventory-profiles-next]
 flavors = "cltweak_on"
 [metafile.jump-over-fences]
+flavors = "cltweak_on"
+[metafile.libipn]
 flavors = "cltweak_on"
 
 ## Tooltips
@@ -165,6 +168,4 @@ flavors = "voxy_on"
 [metafile.ecliptic-seasons-voxy-compact]
 flavors = "voxy_on"
 [metafile.forgified-fabric-api]
-flavors = "voxy_on"
-[metafile.ecliptic-seasons-voxy-compact]
 flavors = "voxy_on"

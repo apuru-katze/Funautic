@@ -609,11 +609,11 @@ file = "mods/interiors.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
+file = "mods/inventory-hud-forge.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/iris.pw.toml"
+file = "mods/inventory-profiles-next.pw.toml"
 metafile = true
 
 [[files]]
@@ -638,6 +638,10 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/jump-over-fences.pw.toml"
 metafile = true
 
 [[files]]
@@ -710,6 +714,10 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-vinery.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
 metafile = true
 
 [[files]]
