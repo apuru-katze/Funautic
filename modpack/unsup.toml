@@ -67,17 +67,7 @@ description = "HUD Inventory dan Management lainnya"
 ## Fancy
 [metafile.3dskinlayers]
 flavors = "funautic_fancy"
-[metafile.better-clouds]
-flavors = "funautic_fancy"
-[metafile.blur-plus]
-flavors = "funautic_fancy"
-[metafile.chatanimation]
-flavors = "funautic_fancy"
-[metafile.cherished-worlds]
-flavors = "funautic_fancy"
 [metafile.detail-armor-bar-reconstructed]
-flavors = "funautic_fancy"
-[metafile.effectual]
 flavors = "funautic_fancy"
 [metafile.enchanted-fishing-line]
 flavors = "funautic_fancy"
@@ -85,25 +75,15 @@ flavors = "funautic_fancy"
 flavors = "funautic_fancy"
 [metafile.entity-texture-features-fabric]
 flavors = "funautic_fancy"
-[metafile.explosive-enhancement-reforged]
-flavors = "funautic_fancy"
 [metafile.immersive-ui]
 flavors = "funautic_fancy"
 [metafile.itemphysic-lite]
-flavors = "funautic_fancy"
-[metafile.make_bubbles_pop]
 flavors = "funautic_fancy"
 [metafile.particle-effects]
 flavors = "funautic_fancy"
 [metafile.particle-rain]
 flavors = "funautic_fancy"
 [metafile.particular-reforged]
-flavors = "funautic_fancy"
-[metafile.perception]
-flavors = "funautic_fancy"
-[metafile.polytone]
-flavors = "funautic_fancy"
-[metafile.smooth-gui]
 flavors = "funautic_fancy"
 [metafile.subtle-effects]
 flavors = "funautic_fancy"
@@ -112,6 +92,8 @@ flavors = "funautic_fancy"
 [metafile.visuality-forge]
 flavors = "funautic_fancy"
 [metafile.wakes-reforged]
+flavors = "funautic_fancy"
+[metafile.cool-rain-reforged]
 flavors = "funautic_fancy"
 
 ## Client Tweaks

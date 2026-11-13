@@ -61,6 +61,10 @@ metafile = true
 file = "kubejs/server_scripts/disabled item.js"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/accessories.pw.toml"
 metafile = true
 
@@ -214,6 +218,10 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cool-rain-reforged.pw.toml"
 metafile = true
 
 [[files]]
@@ -461,6 +469,10 @@ file = "mods/easy-npc.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/eclipseui.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ecliptic-seasons-bundles.pw.toml"
 metafile = true
 
@@ -497,6 +509,10 @@ file = "mods/emotecraft-forge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/enchanted-fishing-line.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 metafile = true
 
@@ -510,6 +526,10 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
 metafile = true
 
 [[files]]
@@ -601,6 +621,10 @@ file = "mods/immersive-paintings.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immersive-ui.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/in-game-account-switcher.pw.toml"
 metafile = true
 
@@ -622,6 +646,10 @@ metafile = true
 
 [[files]]
 file = "mods/item-obliterator.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/itemphysic-lite.pw.toml"
 metafile = true
 
 [[files]]
@@ -818,6 +846,18 @@ metafile = true
 
 [[files]]
 file = "mods/particle-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particle-effects.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particular-reforged.pw.toml"
 metafile = true
 
 [[files]]
@@ -1033,6 +1073,10 @@ file = "mods/strut-your-stuff.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/subtle-effects.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 metafile = true
 
@@ -1042,6 +1086,10 @@ metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tiny-item-animations.pw.toml"
 metafile = true
 
 [[files]]
@@ -1061,11 +1109,19 @@ file = "mods/veinminer-mod.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/visuality-forge.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/voxy.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/vs-hose-connectors.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/wakes-reforged.pw.toml"
 metafile = true
 
 [[files]]

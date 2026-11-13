@@ -1,0 +1,13 @@
+name = "EclipseUI"
+filename = "EclipseUI-neoforge-1.0.5-neoforge-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/99cGtHRy/versions/z73ovNwy/EclipseUI-neoforge-1.0.5-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "d854fb8db4d7232673aa8d7e175f5c3abd071392fbe90a9b48a29a02ba199994c4224f7f671d04fe59f739962eff9ed61cc872364df97c2cf68b3c13e2c26fb0"
+
+[update]
+[update.modrinth]
+mod-id = "99cGtHRy"
+version = "z73ovNwy"
