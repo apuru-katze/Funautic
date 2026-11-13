@@ -6,8 +6,8 @@ To import modpack, use link bellow and paste at import section. You can download
 
 | docs                                                    | Link                                                     | Pack Type |                                                                               |
 | :------------------------------------------------------ | :------------------------------------------------------- | :-------- | ----------------------------------------------------------------------------- |
-| `Prism Instalations`                                    | `https://apuru-katze.github.io/Funautic/funautic.zip`    | MultiMC   | [download](https://apuru-katze.github.io/Funautic/production/funautic.zip)    |
-| [Modrinth Instalations](docs/modrinth-installations.md) | `https://apuru-katze.github.io/Funautic/funautic.mrpack` | Mrpack    | [download](https://apuru-katze.github.io/Funautic/production/funautic.mrpack) |
+| `Prism Instalations`                                    | `https://apuru-katze.github.io/Funautic/production/funautic.zip`    | MultiMC   | [download](https://apuru-katze.github.io/Funautic/production/funautic.zip)    |
+| [Modrinth Instalations](docs/modrinth-installations.md) | `https://apuru-katze.github.io/Funautic/production/funautic.mrpack` | Mrpack    | [download](https://apuru-katze.github.io/Funautic/production/funautic.mrpack) |
 
 ## License and Disclaimer
 
