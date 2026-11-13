@@ -765,6 +765,10 @@ file = "mods/lootr.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mafglib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 metafile = true
 
@@ -1102,6 +1106,10 @@ metafile = true
 
 [[files]]
 file = "mods/trashslot.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tweakerge.pw.toml"
 metafile = true
 
 [[files]]

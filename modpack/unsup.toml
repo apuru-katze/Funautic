@@ -133,6 +133,10 @@ flavors = "admintools_on"
 flavors = "admintools_on"
 [metafile.spark]
 flavors = "admintools_on"
+[metafile.mafglib]
+flavors = "admintools_on"
+[metafile.tweakerge]
+flavors = "admintools_on"
 
 ## Punchy
 [metafile.punchy]
