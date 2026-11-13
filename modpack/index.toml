@@ -129,10 +129,6 @@ file = "mods/balm.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/bandwidthoptimizer.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/barbeques-delight-forge.pw.toml"
 metafile = true
 
