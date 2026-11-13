@@ -173,6 +173,10 @@ file = "mods/chisel-reborn.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/clean-tooltips.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/client-tweaks.pw.toml"
 metafile = true
 
@@ -186,6 +190,14 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/colorwheel-patcher.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/colorwheel.pw.toml"
 metafile = true
 
 [[files]]
@@ -314,6 +326,10 @@ metafile = true
 
 [[files]]
 file = "mods/create-offroad-narrow-roads.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-package-tooltip.pw.toml"
 metafile = true
 
 [[files]]
@@ -453,6 +469,10 @@ file = "mods/ecliptic-seasons-multimod-patch.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ecliptic-seasons-voxy-compact.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ecliptic-seasons.pw.toml"
 metafile = true
 
@@ -525,6 +545,14 @@ file = "mods/flerovium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fragmentum.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/framedblocks.pw.toml"
 metafile = true
 
@@ -573,11 +601,19 @@ file = "mods/immersive-paintings.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/in-game-account-switcher.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
 metafile = true
 
 [[files]]
@@ -737,6 +773,14 @@ file = "mods/obe.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/obscure-tooltips.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/observable.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/offgrid.pw.toml"
 metafile = true
 
@@ -797,6 +841,14 @@ file = "mods/progresspeek.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/punchy-moves.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/punchy.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 metafile = true
 
@@ -838,6 +890,10 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/roxy.pw.toml"
 metafile = true
 
 [[files]]
@@ -941,6 +997,10 @@ file = "mods/sound.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/starcatcher.pw.toml"
 metafile = true
 
@@ -990,6 +1050,10 @@ metafile = true
 
 [[files]]
 file = "mods/veinminer-mod.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/voxy.pw.toml"
 metafile = true
 
 [[files]]

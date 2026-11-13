@@ -1,0 +1,13 @@
+name = "Ecliptic Seasons : Voxy Compact"
+filename = "EclipticSeasons-VoxyCompact-1.21.1-neoforge-0.2.14-alpha-v3-2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0251da5c71a7d15db577690a0ce2ef85b37deb88"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9527249
+project-id = 1519898

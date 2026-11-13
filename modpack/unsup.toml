@@ -44,7 +44,7 @@ id = "voxy_on"
 name = "voxy"
 description = "Mod Voxy+Roxy, port neoforge dari Voxy"
 
-
+## Punchy
 [flavor_groups.punchy]
 name = "Punchy Animations"
 side = "client"
@@ -114,8 +114,6 @@ flavors = "funautic_fancy"
 [metafile.wakes-reforged]
 flavors = "funautic_fancy"
 
-[metafile.boat-item-view]
-flavors = "cltweak_on"
 [metafile.client-tweaks]
 flavors = "cltweak_on"
 [metafile.inventory-hud-forge]
@@ -125,13 +123,17 @@ flavors = "cltweak_on"
 [metafile.jump-over-fences]
 flavors = "cltweak_on"
 
+## Tooltips
 [metafile.clean-tooltips]
 flavors = "tooltips_on"
 [metafile.create-package-tooltip]
 flavors = "tooltips_on"
 [metafile.obscure-tooltips]
 flavors = "tooltips_on"
+[metafile.fragmentum]
+flavors = "tooltips_on"
 
+## Shaders
 [metafile.colorwheel-patcher]
 flavors = "shader"
 [metafile.colorwheel]
@@ -139,6 +141,7 @@ flavors = "shader"
 [metafile.irisshaders]
 flavors = "shader"
 
+## admin tools
 [metafile.in-game-account-switcher]
 flavors = "admintools_on"
 [metafile.observable]
@@ -147,7 +150,9 @@ flavors = "admintools_on"
 flavors = "admintools_on"
 
 ## Punchy
-[metafile.punchy-fpa]
+[metafile.punchy]
+flavors = "punchy_on"
+[metafile.punchy-moves]
 flavors = "punchy_on"
 
 ## Voxy Distant Horizon
@@ -156,4 +161,10 @@ flavors = "dh_on"
 [metafile.voxy]
 flavors = "voxy_on"
 [metafile.roxy]
+flavors = "voxy_on"
+[metafile.ecliptic-seasons-voxy-compact]
+flavors = "voxy_on"
+[metafile.forgified-fabric-api]
+flavors = "voxy_on"
+[metafile.ecliptic-seasons-voxy-compact]
 flavors = "voxy_on"
