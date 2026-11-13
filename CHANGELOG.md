@@ -209,6 +209,18 @@ voxy | voxy-0.2.16-beta+1.21.11.jar
 Wakes Reforged | wakes-1.21.1-NeoForge-1.4.1.jar
 ```
 
+### Sinkronisasi branch `fix/custom_payload`
+
+Perubahan berikut masuk setelah draft awal 1.3.1 dan harus dihitung sebagai bagian dari `1.3.1-EthelwynPack`:
+
+- **Create: Interiors**: `interiors-1.21.1-neoforge-0.6.1.jar` => `interiors-0.6.1 v3.jar` (`8e66712`, perbaikan seat positioning).
+- **Added**: Clean Tooltips, Colorwheel, Colorwheel Patcher, Create: Package Tooltip, Ecliptic Seasons Voxy Compact, Forgified Fabric API, Fragmentum, In-Game Account Switcher, Inventory HUD+, Jump Over Fences, libIPN, Obscure Tooltips, Observable, Punchy Moves, Punchy!, Roxy, Spark, dan Voxy.
+- **Unsup/deployment**: workflow static sekarang mengambil source `development` untuk kanal development (`d935df5`), sehingga branch `fix/custom_payload` dapat diuji melalui manifest yang benar.
+
+Catatan: commit branch ini tidak mengubah byte custom payload secara langsung. Perubahan yang terverifikasi adalah penyelarasan source branch, mod metadata, dan `Create: Interiors`; keberhasilan perbaikan payload harus dikonfirmasi dengan uji client/server setelah deployment.
+
+Beberapa nama pada bagian `Mod ditambahkan` dan `Mod dihapus` di atas muncul dua kali karena metafile Packwiz berganti nama/path. Itu adalah **rename/replacement metadata**, bukan dua instalasi mod atau add-then-delete runtime.
+
 ### Perubahan non-mod
 
 - Penamaan pilihan flavor Unsup dirapikan: `Basic`, `Fancy`, `No Shader`, `With Shader`, `Punchy Animations`, `Admin Tools`, dan `Other Client Mod`.
