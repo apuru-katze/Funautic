@@ -1,6 +1,6 @@
 name = "William Wythers' Overhauled Overworld"
 filename = "wwoo-neoforge-2.6.7.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Create: Cyber Goggles"
 filename = "CreateCyberGoggles-1.21.1-8.6.3-NeoForge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

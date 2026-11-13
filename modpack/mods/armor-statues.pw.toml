@@ -1,6 +1,6 @@
 name = "Armor Statues"
 filename = "ArmorStatues-v21.1.0-1.21.1-NeoForge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
