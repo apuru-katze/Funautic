@@ -77,10 +77,6 @@ file = "mods/aeronautics-camera-sync.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/aileron.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/alltheleaks.pw.toml"
 metafile = true
 
@@ -305,10 +301,6 @@ file = "mods/create-escalated.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-factory.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/create-framed.pw.toml"
 metafile = true
 
@@ -466,22 +458,6 @@ metafile = true
 
 [[files]]
 file = "mods/eclipseui.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ecliptic-seasons-bundles.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ecliptic-seasons-multimod-patch.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ecliptic-seasons-voxy-compact.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ecliptic-seasons.pw.toml"
 metafile = true
 
 [[files]]
@@ -789,10 +765,6 @@ file = "mods/necronomicon.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/nirvana.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
@@ -1001,10 +973,6 @@ file = "mods/shulkerboxtooltip.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/simple-netherite-horse-armor.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 metafile = true
 
@@ -1090,10 +1058,6 @@ metafile = true
 
 [[files]]
 file = "mods/tiny-item-animations.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/tobacconist.pw.toml"
 metafile = true
 
 [[files]]
